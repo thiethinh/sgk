@@ -1,0 +1,2191 @@
+{
+  "ca_hat": {
+    "id": "ca_hat",
+    "wordVi": "ca hát",
+    "meaningVi": "Hát vang lên những giai điệu vui tươi, rộn ràng.",
+    "meaningsEn": [
+      {
+        "meaning": "sing",
+        "ipa": "/sɪŋ/",
+        "partOfSpeech": "verb"
+      }
+    ],
+    "ipa": "/sɪŋ/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/ca_hat.mp3",
+    "audioEn": "/audio/en/us/ca_hat.mp3",
+    "sourcePages": [
+      15
+    ]
+  },
+  "bo": {
+    "id": "bo",
+    "wordVi": "bố",
+    "meaningVi": "Người đàn ông sinh thành, che chở và yêu thương con.",
+    "meaningsEn": [
+      {
+        "meaning": "father",
+        "ipa": "/ˈfɑːðər/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "dad",
+        "ipa": "/dæd/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈfɑːðər/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/bo.mp3",
+    "audioEn": "/audio/en/us/bo.mp3",
+    "sourcePages": [
+      16,
+      18,
+      19,
+      27,
+      28,
+      32,
+      46
+    ]
+  },
+  "ba_noi": {
+    "id": "ba_noi",
+    "wordVi": "bà",
+    "meaningVi": "Người phụ nữ lớn tuổi, là mẹ của bố hoặc mẹ, luôn thương yêu cháu.",
+    "meaningsEn": [
+      {
+        "meaning": "grandmother",
+        "ipa": "/ˈɡrænmʌðər/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "grandma",
+        "ipa": "/ˈɡrænmɑː/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈɡrænmʌðər/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ba_noi.mp3",
+    "audioEn": "/audio/en/us/ba_noi.mp3",
+    "sourcePages": [
+      17,
+      22,
+      23,
+      33,
+      38,
+      48,
+      49,
+      53
+    ]
+  },
+  "be": {
+    "id": "be",
+    "wordVi": "bé",
+    "meaningVi": "Em bé nhỏ tuổi, xinh xắn và đáng yêu.",
+    "meaningsEn": [
+      {
+        "meaning": "baby",
+        "ipa": "/ˈbeɪbi/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "little child",
+        "ipa": "/ˈlɪtl tʃaɪld/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈbeɪbi/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/be.mp3",
+    "audioEn": "/audio/en/us/be.mp3",
+    "sourcePages": [
+      17,
+      21,
+      22,
+      26,
+      28,
+      30,
+      32,
+      38,
+      43
+    ]
+  },
+  "bup_be": {
+    "id": "bup_be",
+    "wordVi": "búp bê",
+    "meaningVi": "Đồ chơi hình người nhỏ nhắn, xinh xắn của các bé.",
+    "meaningsEn": [
+      {
+        "meaning": "doll",
+        "ipa": "/dɑːl/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/dɑːl/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/bup_be.mp3",
+    "audioEn": "/audio/en/us/bup_be.mp3",
+    "sourcePages": [
+      17,
+      24
+    ]
+  },
+  "cau_ca": {
+    "id": "cau_ca",
+    "wordVi": "câu cá",
+    "meaningVi": "Dùng cần câu có mồi để bắt cá dưới nước.",
+    "meaningsEn": [
+      {
+        "meaning": "go fishing",
+        "ipa": "/ɡoʊ ˈfɪʃɪŋ/",
+        "partOfSpeech": "phrase"
+      }
+    ],
+    "ipa": "/ɡoʊ ˈfɪʃɪŋ/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/cau_ca.mp3",
+    "audioEn": "/audio/en/us/cau_ca.mp3",
+    "sourcePages": [
+      19
+    ]
+  },
+  "ca": {
+    "id": "ca",
+    "wordVi": "cá",
+    "meaningVi": "Con vật sống dưới nước, bơi bằng vây và thở bằng mang.",
+    "meaningsEn": [
+      {
+        "meaning": "fish",
+        "ipa": "/fɪʃ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/fɪʃ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ca.mp3",
+    "audioEn": "/audio/en/us/ca.mp3",
+    "sourcePages": [
+      19,
+      20,
+      40,
+      42
+    ]
+  },
+  "co_do": {
+    "id": "co_do",
+    "wordVi": "cờ",
+    "meaningVi": "Lá cờ đỏ sao vàng hoặc cờ hiệu tung bay trong gió.",
+    "meaningsEn": [
+      {
+        "meaning": "flag",
+        "ipa": "/flæɡ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/flæɡ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/co_do.mp3",
+    "audioEn": "/audio/en/us/co_do.mp3",
+    "sourcePages": [
+      19,
+      27,
+      43
+    ]
+  },
+  "me": {
+    "id": "me",
+    "wordVi": "mẹ",
+    "meaningVi": "Người phụ nữ sinh thành, chăm lo và nuôi nấng con.",
+    "meaningsEn": [
+      {
+        "meaning": "mother",
+        "ipa": "/ˈmʌðər/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "mom",
+        "ipa": "/mɑːm/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈmʌðər/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/me.mp3",
+    "audioEn": "/audio/en/us/me.mp3",
+    "sourcePages": [
+      21,
+      45,
+      46,
+      50,
+      51,
+      53,
+      55
+    ]
+  },
+  "be_dong_tu": {
+    "id": "be_dong_tu",
+    "wordVi": "bế",
+    "meaningVi": "Dùng hai tay ôm đỡ em bé vào lòng mình.",
+    "meaningsEn": [
+      {
+        "meaning": "carry in arms",
+        "ipa": "/ˈkæri ɪn ɑːrmz/",
+        "partOfSpeech": "verb"
+      }
+    ],
+    "ipa": "/ˈkæri/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/be_dong_tu.mp3",
+    "audioEn": "/audio/en/us/be_dong_tu.mp3",
+    "sourcePages": [
+      21,
+      22,
+      28
+    ]
+  },
+  "ban_be": {
+    "id": "ban_be",
+    "wordVi": "bạn bè",
+    "meaningVi": "Những người bạn cùng học, cùng chơi thân thiết với nhau.",
+    "meaningsEn": [
+      {
+        "meaning": "friends",
+        "ipa": "/frendz/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/frendz/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ban_be.mp3",
+    "audioEn": "/audio/en/us/ban_be.mp3",
+    "sourcePages": [
+      8,
+      21,
+      29
+    ]
+  },
+  "de_men": {
+    "id": "de_men",
+    "wordVi": "dế mèn",
+    "meaningVi": "Con côn trùng nhỏ màu nâu, gáy tiếng 'ri ri' vui tai.",
+    "meaningsEn": [
+      {
+        "meaning": "cricket",
+        "ipa": "/ˈkrɪkɪt/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈkrɪkɪt/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/de_men.mp3",
+    "audioEn": "/audio/en/us/de_men.mp3",
+    "sourcePages": [
+      24,
+      33
+    ]
+  },
+  "con_bo": {
+    "id": "con_bo",
+    "wordVi": "bò",
+    "meaningVi": "Loài vật nuôi bốn chân ăn cỏ, hiền lành và cho sữa.",
+    "meaningsEn": [
+      {
+        "meaning": "cow",
+        "ipa": "/kaʊ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/kaʊ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/con_bo.mp3",
+    "audioEn": "/audio/en/us/con_bo.mp3",
+    "sourcePages": [
+      25
+    ]
+  },
+  "gam_co": {
+    "id": "gam_co",
+    "wordVi": "gặm cỏ",
+    "meaningVi": "Động tác bò, dê dùng răng nhai cắn từng cụm cỏ non.",
+    "meaningsEn": [
+      {
+        "meaning": "graze",
+        "ipa": "/ɡreɪz/",
+        "partOfSpeech": "verb"
+      }
+    ],
+    "ipa": "/ɡreɪz/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/gam_co.mp3",
+    "audioEn": "/audio/en/us/gam_co.mp3",
+    "sourcePages": [
+      25
+    ]
+  },
+  "co": {
+    "id": "co",
+    "wordVi": "cỏ",
+    "meaningVi": "Cây nhỏ thân mềm mọc thành thảm xanh trên mặt đất.",
+    "meaningsEn": [
+      {
+        "meaning": "grass",
+        "ipa": "/ɡræs/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ɡræs/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/co.mp3",
+    "audioEn": "/audio/en/us/co.mp3",
+    "sourcePages": [
+      25,
+      26,
+      52
+    ]
+  },
+  "di_bo": {
+    "id": "di_bo",
+    "wordVi": "đi bộ",
+    "meaningVi": "Di chuyển từng bước chân trên đường đi.",
+    "meaningsEn": [
+      {
+        "meaning": "walk",
+        "ipa": "/wɔːk/",
+        "partOfSpeech": "verb"
+      }
+    ],
+    "ipa": "/wɔːk/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/di_bo.mp3",
+    "audioEn": "/audio/en/us/di_bo.mp3",
+    "sourcePages": [
+      27
+    ]
+  },
+  "he_pho": {
+    "id": "he_pho",
+    "wordVi": "hè phố",
+    "meaningVi": "Phần lề đường dành riêng cho người đi bộ trên phố.",
+    "meaningsEn": [
+      {
+        "meaning": "sidewalk",
+        "ipa": "/ˈsaɪdwɔːk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈsaɪdwɔːk/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/he_pho.mp3",
+    "audioEn": "/audio/en/us/he_pho.mp3",
+    "sourcePages": [
+      27
+    ]
+  },
+  "goc_da": {
+    "id": "goc_da",
+    "wordVi": "gốc đa",
+    "meaningVi": "Phần dưới cùng của cây đa cổ thụ râm mát nơi đầu làng.",
+    "meaningsEn": [
+      {
+        "meaning": "banyan tree base",
+        "ipa": "/ˈbænjən triː beɪs/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈbænjən triː/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/goc_da.mp3",
+    "audioEn": "/audio/en/us/goc_da.mp3",
+    "sourcePages": [
+      29
+    ]
+  },
+  "o_do": {
+    "id": "o_do",
+    "wordVi": "ô đỏ",
+    "meaningVi": "Cái ô (dù) màu đỏ tươi dùng che mưa nắng.",
+    "meaningsEn": [
+      {
+        "meaning": "red umbrella",
+        "ipa": "/red ʌmˈbrelə/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/red ʌmˈbrelə/",
+    "partOfSpeech": "cụm danh từ",
+    "audioVi": "/audio/vi/o_do.mp3",
+    "audioEn": "/audio/en/us/o_do.mp3",
+    "sourcePages": [
+      29,
+      30
+    ]
+  },
+  "tau_thuy": {
+    "id": "tau_thuy",
+    "wordVi": "tàu",
+    "meaningVi": "Phương tiện giao thông to lớn chạy trên mặt nước.",
+    "meaningsEn": [
+      {
+        "meaning": "ship",
+        "ipa": "/ʃɪp/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ʃɪp/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/tau_thuy.mp3",
+    "audioEn": "/audio/en/us/tau_thuy.mp3",
+    "sourcePages": [
+      31
+    ]
+  },
+  "cang_bien": {
+    "id": "cang_bien",
+    "wordVi": "cảng",
+    "meaningVi": "Nơi tàu thuyền neo đậu để bốc dỡ hàng hóa.",
+    "meaningsEn": [
+      {
+        "meaning": "port / harbor",
+        "ipa": "/pɔːrt/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/pɔːrt/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/cang_bien.mp3",
+    "audioEn": "/audio/en/us/cang_bien.mp3",
+    "sourcePages": [
+      31
+    ]
+  },
+  "bo_de": {
+    "id": "bo_de",
+    "wordVi": "bờ đê",
+    "meaningVi": "Dải đất cao ven sông để ngăn nước lũ tràn vào làng xóm.",
+    "meaningsEn": [
+      {
+        "meaning": "dike embankment",
+        "ipa": "/daɪk ɪmˈbæŋkmənt/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/daɪk/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/bo_de.mp3",
+    "audioEn": "/audio/en/us/bo_de.mp3",
+    "sourcePages": [
+      31,
+      33,
+      52
+    ]
+  },
+  "do_be": {
+    "id": "do_be",
+    "wordVi": "đỡ bé",
+    "meaningVi": "Dùng tay nâng hoặc giữ bé để bé không bị ngã.",
+    "meaningsEn": [
+      {
+        "meaning": "support child",
+        "ipa": "/səˈpɔːrt tʃaɪld/",
+        "partOfSpeech": "verb phrase"
+      }
+    ],
+    "ipa": "/səˈpɔːrt/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/do_be.mp3",
+    "audioEn": "/audio/en/us/do_be.mp3",
+    "sourcePages": [
+      31,
+      32
+    ]
+  },
+  "do_do": {
+    "id": "do_do",
+    "wordVi": "đỗ đỏ",
+    "meaningVi": "Loại hạt đậu màu đỏ, dùng để nấu chè thơm ngon bổ dưỡng.",
+    "meaningsEn": [
+      {
+        "meaning": "red beans",
+        "ipa": "/red biːnz/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/red biːnz/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/do_do.mp3",
+    "audioEn": "/audio/en/us/do_do.mp3",
+    "sourcePages": [
+      33
+    ]
+  },
+  "dan_kien": {
+    "id": "dan_kien",
+    "wordVi": "đàn kiến",
+    "meaningVi": "Nhiều con kiến nhỏ bé cùng làm việc chăm chỉ, đoàn kết.",
+    "meaningsEn": [
+      {
+        "meaning": "colony of ants",
+        "ipa": "/ˈkɑːləni əv ænts/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/ænts/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/dan_kien.mp3",
+    "audioEn": "/audio/en/us/dan_kien.mp3",
+    "sourcePages": [
+      34
+    ]
+  },
+  "ki_da": {
+    "id": "ki_da",
+    "wordVi": "kì đà",
+    "meaningVi": "Loài bò sát lớn có vảy giống thằn lằn, biết bơi và leo trèo.",
+    "meaningsEn": [
+      {
+        "meaning": "monitor lizard",
+        "ipa": "/ˈmɑːnɪtər ˈlɪzərd/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈmɑːnɪtər ˈlɪzərd/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ki_da.mp3",
+    "audioEn": "/audio/en/us/ki_da.mp3",
+    "sourcePages": [
+      35,
+      36
+    ]
+  },
+  "ke_da": {
+    "id": "ke_da",
+    "wordVi": "kẽ đá",
+    "meaningVi": "Khe hở hẹp ở giữa các tảng đá.",
+    "meaningsEn": [
+      {
+        "meaning": "rock crevice",
+        "ipa": "/rɑːk ˈkrevɪs/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈkrevɪs/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ke_da.mp3",
+    "audioEn": "/audio/en/us/ke_da.mp3",
+    "sourcePages": [
+      36
+    ]
+  },
+  "le_le": {
+    "id": "le_le",
+    "wordVi": "le le",
+    "meaningVi": "Loài vịt trời hoang dã nhỏ, bơi lội và lặn rất giỏi trên mặt nước.",
+    "meaningsEn": [
+      {
+        "meaning": "whistling duck",
+        "ipa": "/ˈwɪslɪŋ dʌk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈwɪslɪŋ dʌk/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/le_le.mp3",
+    "audioEn": "/audio/en/us/le_le.mp3",
+    "sourcePages": [
+      37
+    ]
+  },
+  "boi_loi": {
+    "id": "boi_loi",
+    "wordVi": "bơi",
+    "meaningVi": "Di chuyển trên hoặc trong nước bằng vây hoặc chân tay.",
+    "meaningsEn": [
+      {
+        "meaning": "swim",
+        "ipa": "/swɪm/",
+        "partOfSpeech": "verb"
+      }
+    ],
+    "ipa": "/swɪm/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/boi_loi.mp3",
+    "audioEn": "/audio/en/us/boi_loi.mp3",
+    "sourcePages": [
+      37
+    ]
+  },
+  "mat_ho": {
+    "id": "mat_ho",
+    "wordVi": "hồ",
+    "meaningVi": "Vùng nước ngọt rộng lớn và phẳng lặng.",
+    "meaningsEn": [
+      {
+        "meaning": "lake",
+        "ipa": "/leɪk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/leɪk/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/mat_ho.mp3",
+    "audioEn": "/audio/en/us/mat_ho.mp3",
+    "sourcePages": [
+      37,
+      43
+    ]
+  },
+  "la_he": {
+    "id": "la_he",
+    "wordVi": "lá hẹ",
+    "meaningVi": "Lá cây hẹ xanh, có vị thơm nồng, dùng chữa ho cho bé.",
+    "meaningsEn": [
+      {
+        "meaning": "chive leaves",
+        "ipa": "/tʃaɪv liːvz/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/tʃaɪvz/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/la_he.mp3",
+    "audioEn": "/audio/en/us/la_he.mp3",
+    "sourcePages": [
+      38,
+      43
+    ]
+  },
+  "du_du": {
+    "id": "du_du",
+    "wordVi": "đu đủ",
+    "meaningVi": "Quả khi chín ruột màu vàng cam, ngọt mát và bổ dưỡng.",
+    "meaningsEn": [
+      {
+        "meaning": "papaya",
+        "ipa": "/pəˈpaɪə/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/pəˈpaɪə/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/du_du.mp3",
+    "audioEn": "/audio/en/us/du_du.mp3",
+    "sourcePages": [
+      39
+    ]
+  },
+  "ngot_lu": {
+    "id": "ngot_lu",
+    "wordVi": "ngọt lừ",
+    "meaningVi": "Vị ngọt đậm đà, rất ngon lành.",
+    "meaningsEn": [
+      {
+        "meaning": "very sweet",
+        "ipa": "/ˈveri swiːt/",
+        "partOfSpeech": "adjective"
+      }
+    ],
+    "ipa": "/swiːt/",
+    "partOfSpeech": "tính từ",
+    "audioVi": "/audio/vi/ngot_lu.mp3",
+    "audioEn": "/audio/en/us/ngot_lu.mp3",
+    "sourcePages": [
+      39
+    ]
+  },
+  "ca_ho": {
+    "id": "ca_ho",
+    "wordVi": "cá hổ",
+    "meaningVi": "Loài cá săn mồi có hàm răng sắc bén.",
+    "meaningsEn": [
+      {
+        "meaning": "tigerfish",
+        "ipa": "/ˈtaɪɡər fɪʃ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈtaɪɡər fɪʃ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ca_ho.mp3",
+    "audioEn": "/audio/en/us/ca_ho.mp3",
+    "sourcePages": [
+      40
+    ]
+  },
+  "hung_du": {
+    "id": "hung_du",
+    "wordVi": "dữ",
+    "meaningVi": "Tính cách hung hăng, có thể cắn hay tấn công con vật khác.",
+    "meaningsEn": [
+      {
+        "meaning": "fierce",
+        "ipa": "/fɪrs/",
+        "partOfSpeech": "adjective"
+      }
+    ],
+    "ipa": "/fɪrs/",
+    "partOfSpeech": "tính từ",
+    "audioVi": "/audio/vi/hung_du.mp3",
+    "audioEn": "/audio/en/us/hung_du.mp3",
+    "sourcePages": [
+      40,
+      43
+    ]
+  },
+  "con_khi": {
+    "id": "con_khi",
+    "wordVi": "khỉ",
+    "meaningVi": "Loài vật thông minh, leo trèo giỏi và thích ăn quả chuối.",
+    "meaningsEn": [
+      {
+        "meaning": "monkey",
+        "ipa": "/ˈmʌŋki/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈmʌŋki/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/con_khi.mp3",
+    "audioEn": "/audio/en/us/con_khi.mp3",
+    "sourcePages": [
+      41
+    ]
+  },
+  "chuoi": {
+    "id": "chuoi",
+    "wordVi": "chuối",
+    "meaningVi": "Quả dài cong cong, khi chín vỏ màu vàng thơm ngọt.",
+    "meaningsEn": [
+      {
+        "meaning": "banana",
+        "ipa": "/bəˈnænə/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/bəˈnænə/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/chuoi.mp3",
+    "audioEn": "/audio/en/us/chuoi.mp3",
+    "sourcePages": [
+      41
+    ]
+  },
+  "ca_kho": {
+    "id": "ca_kho",
+    "wordVi": "cá kho",
+    "meaningVi": "Món ăn ngon từ cá nấu đậm vị thơm lừng.",
+    "meaningsEn": [
+      {
+        "meaning": "braised fish",
+        "ipa": "/breɪzd fɪʃ/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/breɪzd fɪʃ/",
+    "partOfSpeech": "cụm danh từ",
+    "audioVi": "/audio/vi/ca_kho.mp3",
+    "audioEn": "/audio/en/us/ca_kho.mp3",
+    "sourcePages": [
+      42,
+      44
+    ]
+  },
+  "khe": {
+    "id": "khe",
+    "wordVi": "khế",
+    "meaningVi": "Quả có 5 múi hình ngôi sao, vị chua thanh hoặc ngọt.",
+    "meaningsEn": [
+      {
+        "meaning": "starfruit",
+        "ipa": "/ˈstɑːrfruːt/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈstɑːrfruːt/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/khe.mp3",
+    "audioEn": "/audio/en/us/khe.mp3",
+    "sourcePages": [
+      42,
+      44
+    ]
+  },
+  "con_qua": {
+    "id": "con_qua",
+    "wordVi": "con quạ",
+    "meaningVi": "Loài chim có bộ lông đen tuyền, rất nhanh trí và thông minh.",
+    "meaningsEn": [
+      {
+        "meaning": "crow",
+        "ipa": "/kroʊ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/kroʊ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/con_qua.mp3",
+    "audioEn": "/audio/en/us/con_qua.mp3",
+    "sourcePages": [
+      44
+    ]
+  },
+  "thong_minh": {
+    "id": "thong_minh",
+    "wordVi": "thông minh",
+    "meaningVi": "Nhanh trí, khéo léo tìm ra cách giải quyết khó khăn.",
+    "meaningsEn": [
+      {
+        "meaning": "smart",
+        "ipa": "/smɑːrt/",
+        "partOfSpeech": "adjective"
+      },
+      {
+        "meaning": "clever",
+        "ipa": "/ˈklevər/",
+        "partOfSpeech": "adjective"
+      }
+    ],
+    "ipa": "/smɑːrt/",
+    "partOfSpeech": "tính từ",
+    "audioVi": "/audio/vi/thong_minh.mp3",
+    "audioEn": "/audio/en/us/thong_minh.mp3",
+    "sourcePages": [
+      44
+    ]
+  },
+  "no_do": {
+    "id": "no_do",
+    "wordVi": "nơ",
+    "meaningVi": "Dải vải thắt hình cánh bướm cài lên tóc hoặc cổ áo xinh xắn.",
+    "meaningsEn": [
+      {
+        "meaning": "ribbon bow",
+        "ipa": "/ˈrɪbən boʊ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/boʊ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/no_do.mp3",
+    "audioEn": "/audio/en/us/no_do.mp3",
+    "sourcePages": [
+      45
+    ]
+  },
+  "ca_no": {
+    "id": "ca_no",
+    "wordVi": "ca nô",
+    "meaningVi": "Thuyền máy cỡ nhỏ lướt sóng nhanh trên sông, hồ.",
+    "meaningsEn": [
+      {
+        "meaning": "motorboat / canoe",
+        "ipa": "/ˈmoʊtərbəʊt/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈmoʊtərbəʊt/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ca_no.mp3",
+    "audioEn": "/audio/en/us/ca_no.mp3",
+    "sourcePages": [
+      46
+    ]
+  },
+  "gio_trung": {
+    "id": "gio_trung",
+    "wordVi": "giỏ trứng",
+    "meaningVi": "Cái giỏ nhỏ đan bằng tre dùng để đựng trứng gà.",
+    "meaningsEn": [
+      {
+        "meaning": "egg basket",
+        "ipa": "/eɡ ˈbæskɪt/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/ˈbæskɪt/",
+    "partOfSpeech": "cụm danh từ",
+    "audioVi": "/audio/vi/gio_trung.mp3",
+    "audioEn": "/audio/en/us/gio_trung.mp3",
+    "sourcePages": [
+      47
+    ]
+  },
+  "con_ga": {
+    "id": "con_ga",
+    "wordVi": "gà",
+    "meaningVi": "Loài gia cầm quen thuộc gáy te te báo trời sáng, gà mái đẻ trứng.",
+    "meaningsEn": [
+      {
+        "meaning": "chicken",
+        "ipa": "/ˈtʃɪkɪn/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈtʃɪkɪn/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/con_ga.mp3",
+    "audioEn": "/audio/en/us/con_ga.mp3",
+    "sourcePages": [
+      47,
+      48,
+      56
+    ]
+  },
+  "che_gio": {
+    "id": "che_gio",
+    "wordVi": "che gió",
+    "meaningVi": "Chắn bớt gió lạnh để giữ ấm cho người và con vật.",
+    "meaningsEn": [
+      {
+        "meaning": "shield from wind",
+        "ipa": "/ʃiːld frəm wɪnd/",
+        "partOfSpeech": "verb phrase"
+      }
+    ],
+    "ipa": "/ʃiːld/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/che_gio.mp3",
+    "audioEn": "/audio/en/us/che_gio.mp3",
+    "sourcePages": [
+      48
+    ]
+  },
+  "nha_ba": {
+    "id": "nha_ba",
+    "wordVi": "nhà",
+    "meaningVi": "Nơi chốn ấm áp để gia đình cùng chung sống.",
+    "meaningsEn": [
+      {
+        "meaning": "house",
+        "ipa": "/haʊs/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "home",
+        "ipa": "/hoʊm/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/haʊs/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/nha_ba.mp3",
+    "audioEn": "/audio/en/us/nha_ba.mp3",
+    "sourcePages": [
+      49,
+      53
+    ]
+  },
+  "ngo_nho": {
+    "id": "ngo_nho",
+    "wordVi": "ngõ nhỏ",
+    "meaningVi": "Con đường nhỏ dẫn vào khu phố hoặc xóm làng.",
+    "meaningsEn": [
+      {
+        "meaning": "small alley",
+        "ipa": "/smɔːl ˈæli/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/ˈæli/",
+    "partOfSpeech": "cụm danh từ",
+    "audioVi": "/audio/vi/ngo_nho.mp3",
+    "audioEn": "/audio/en/us/ngo_nho.mp3",
+    "sourcePages": [
+      49,
+      51,
+      53,
+      54
+    ]
+  },
+  "ghe_nho": {
+    "id": "ghe_nho",
+    "wordVi": "ghế",
+    "meaningVi": "Đồ dùng bằng gỗ hoặc nhựa để bé ngồi học bài.",
+    "meaningsEn": [
+      {
+        "meaning": "chair",
+        "ipa": "/tʃer/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/tʃer/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ghe_nho.mp3",
+    "audioEn": "/audio/en/us/ghe_nho.mp3",
+    "sourcePages": [
+      49,
+      50,
+      53
+    ]
+  },
+  "con_nghe": {
+    "id": "con_nghe",
+    "wordVi": "nghé",
+    "meaningVi": "Con trâu nhỏ mới sinh, rất dễ thương hay lon ton theo mẹ.",
+    "meaningsEn": [
+      {
+        "meaning": "young buffalo",
+        "ipa": "/jʌŋ ˈbʌfəloʊ/",
+        "partOfSpeech": "noun phrase"
+      },
+      {
+        "meaning": "calf",
+        "ipa": "/kæf/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/kæf/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/con_nghe.mp3",
+    "audioEn": "/audio/en/us/con_nghe.mp3",
+    "sourcePages": [
+      51,
+      52
+    ]
+  },
+  "chim_se": {
+    "id": "chim_se",
+    "wordVi": "sẻ",
+    "meaningVi": "Loài chim nhỏ chuyền cành thoăn thoắt, hót líu lo bên mái hiên.",
+    "meaningsEn": [
+      {
+        "meaning": "sparrow",
+        "ipa": "/ˈspæroʊ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈspæroʊ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/chim_se.mp3",
+    "audioEn": "/audio/en/us/chim_se.mp3",
+    "sourcePages": [
+      55
+    ]
+  },
+  "riu_rit": {
+    "id": "riu_rit",
+    "wordVi": "ríu rít",
+    "meaningVi": "Tiếng chim hót rộn ràng, vui vẻ bên nhau.",
+    "meaningsEn": [
+      {
+        "meaning": "chirping happily",
+        "ipa": "/tʃɜːrp ˈhæpɪli/",
+        "partOfSpeech": "verb phrase"
+      }
+    ],
+    "ipa": "/tʃɜːrp/",
+    "partOfSpeech": "từ tượng thanh",
+    "audioVi": "/audio/vi/riu_rit.mp3",
+    "audioEn": "/audio/en/us/riu_rit.mp3",
+    "sourcePages": [
+      55
+    ]
+  },
+  "cho_que": {
+    "id": "cho_que",
+    "wordVi": "chợ",
+    "meaningVi": "Nơi họp mua bán thức ăn, hoa quả tươi ngon tấp nập.",
+    "meaningsEn": [
+      {
+        "meaning": "market",
+        "ipa": "/ˈmɑːrkɪt/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈmɑːrkɪt/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/cho_que.mp3",
+    "audioEn": "/audio/en/us/cho_que.mp3",
+    "sourcePages": [
+      43,
+      56
+    ]
+  },
+  "ca_ro": {
+    "id": "ca_ro",
+    "wordVi": "cá rô",
+    "meaningVi": "Loài cá nước ngọt vảy đen xám, thịt ngọt nấu canh rau cải rất ngon.",
+    "meaningsEn": [
+      {
+        "meaning": "climbing perch",
+        "ipa": "/ˈænəbæs/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈænəbæs/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ca_ro.mp3",
+    "audioEn": "/audio/en/us/ca_ro.mp3",
+    "sourcePages": [
+      56
+    ]
+  },
+  "su_su": {
+    "id": "su_su",
+    "wordVi": "su su",
+    "meaningVi": "Quả màu xanh mát, xào hoặc luộc chấm muối vừng.",
+    "meaningsEn": [
+      {
+        "meaning": "chayote",
+        "ipa": "/tʃaɪˈoʊti/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/tʃaɪˈoʊti/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/su_su.mp3",
+    "audioEn": "/audio/en/us/su_su.mp3",
+    "sourcePages": [
+      56
+    ]
+  },
+  "ro_ra": {
+    "id": "ro_ra",
+    "wordVi": "rổ rá",
+    "meaningVi": "Đồ dùng đan bằng tre nứa để đựng rau quả hoặc đãi gạo.",
+    "meaningsEn": [
+      {
+        "meaning": "woven baskets",
+        "ipa": "/ˈwoʊvn ˈbæskɪts/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/ˈbæskɪts/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/ro_ra.mp3",
+    "audioEn": "/audio/en/us/ro_ra.mp3",
+    "sourcePages": [
+      56
+    ]
+  },
+  "but_chi": {
+    "id": "but_chi",
+    "wordVi": "bút chì",
+    "meaningVi": "Dụng cụ bằng gỗ có ruột chì để bé tập vẽ và viết chữ.",
+    "meaningsEn": [
+      {
+        "meaning": "pencil",
+        "ipa": "/ˈpensl/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈpensl/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/but_chi.mp3",
+    "audioEn": "/audio/en/us/but_chi.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "thuoc_ke": {
+    "id": "thuoc_ke",
+    "wordVi": "thước kẻ",
+    "meaningVi": "Cây thước thẳng có vạch số dùng kẻ những đường thẳng tắp.",
+    "meaningsEn": [
+      {
+        "meaning": "ruler",
+        "ipa": "/ˈruːlər/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈruːlər/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/thuoc_ke.mp3",
+    "audioEn": "/audio/en/us/thuoc_ke.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "tay_gom": {
+    "id": "tay_gom",
+    "wordVi": "tẩy",
+    "meaningVi": "Cục gôm cao su mềm dùng xóa sạch nét chì khi viết sai.",
+    "meaningsEn": [
+      {
+        "meaning": "eraser",
+        "ipa": "/ɪˈreɪsər/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ɪˈreɪsər/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/tay_gom.mp3",
+    "audioEn": "/audio/en/us/tay_gom.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "vo_viet": {
+    "id": "vo_viet",
+    "wordVi": "vở",
+    "meaningVi": "Tập giấy trắng đóng bìa đẹp để bé tập viết bài mỗi ngày.",
+    "meaningsEn": [
+      {
+        "meaning": "notebook",
+        "ipa": "/ˈnoʊtbʊk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈnoʊtbʊk/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/vo_viet.mp3",
+    "audioEn": "/audio/en/us/vo_viet.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "cap_sach": {
+    "id": "cap_sach",
+    "wordVi": "cặp sách",
+    "meaningVi": "Túi đeo sau lưng để bé cất sách vở, đồ dùng đến trường.",
+    "meaningsEn": [
+      {
+        "meaning": "schoolbag",
+        "ipa": "/ˈskuːlbæɡ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈskuːlbæɡ/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/cap_sach.mp3",
+    "audioEn": "/audio/en/us/cap_sach.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "hop_but": {
+    "id": "hop_but",
+    "wordVi": "hộp bút",
+    "meaningVi": "Chiếc hộp nhỏ xinh xắn để cất gọn bút, thước, tẩy.",
+    "meaningsEn": [
+      {
+        "meaning": "pencil case",
+        "ipa": "/ˈpensl keɪs/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈpensl keɪs/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/hop_but.mp3",
+    "audioEn": "/audio/en/us/hop_but.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "bang_con": {
+    "id": "bang_con",
+    "wordVi": "bảng con",
+    "meaningVi": "Tấm bảng nhỏ màu đen bé dùng phấn viết chữ trên lớp.",
+    "meaningsEn": [
+      {
+        "meaning": "small chalkboard",
+        "ipa": "/smɔːl ˈtʃɔːkbɔːrd/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈtʃɔːkbɔːrd/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/bang_con.mp3",
+    "audioEn": "/audio/en/us/bang_con.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "truong_lop": {
+    "id": "truong_lop",
+    "wordVi": "trường lớp",
+    "meaningVi": "Ngôi trường thân yêu nơi thầy cô dạy bé học bao điều mới.",
+    "meaningsEn": [
+      {
+        "meaning": "school and class",
+        "ipa": "/skuːl ənd klæs/",
+        "partOfSpeech": "noun phrase"
+      }
+    ],
+    "ipa": "/skuːl/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/truong_lop.mp3",
+    "audioEn": "/audio/en/us/truong_lop.mp3",
+    "sourcePages": [
+      8
+    ]
+  },
+  "ba_ba": {
+    "id": "ba_ba",
+    "wordVi": "ba ba",
+    "meaningsEn": [
+      {
+        "meaning": "softshell turtle",
+        "ipa": "/ˈsɒft.ʃel ˈtɜː.tl/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Loài bò sát có mai mềm sống ở nước ngọt, bơi rất giỏi.",
+    "exampleVi": "Bé nhìn thấy con ba ba bơi dưới nước.",
+    "sourcePages": [
+      17,
+      23
+    ],
+    "audioVi": "/audio/vi/ba_ba.mp3",
+    "audioEn": "/audio/en/us/ba_ba.mp3",
+    "meaningVi": "Loài bò sát có mai mềm sống ở nước ngọt, bơi rất giỏi.",
+    "ipa": "/ˈsɒft.ʃel ˈtɜː.tl/"
+  },
+  "ca_nuoc": {
+    "id": "ca_nuoc",
+    "wordVi": "ca",
+    "meaningsEn": [
+      {
+        "meaning": "cup",
+        "ipa": "/kʌp/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "mug",
+        "ipa": "/mʌɡ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chiếc ca nhỏ có quai cầm dùng để múc và uống nước.",
+    "exampleVi": "Bé dùng ca sạch để uống nước.",
+    "sourcePages": [
+      19
+    ],
+    "audioVi": "/audio/vi/ca_nuoc.mp3",
+    "audioEn": "/audio/en/us/ca_nuoc.mp3",
+    "meaningVi": "Chiếc ca nhỏ có quai cầm dùng để múc và uống nước.",
+    "ipa": "/kʌp/"
+  },
+  "ca_tim": {
+    "id": "ca_tim",
+    "wordVi": "cà",
+    "meaningsEn": [
+      {
+        "meaning": "eggplant",
+        "ipa": "/ˈeɡ.plɑːnt/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "aubergine",
+        "ipa": "/ˈoʊ.bɚ.ʒiːn/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Quả cà màu tím hoặc trắng dùng để nấu những món ăn ngon.",
+    "exampleVi": "Mẹ đi chợ mua quả cà tím.",
+    "sourcePages": [
+      19
+    ],
+    "audioVi": "/audio/vi/ca_tim.mp3",
+    "audioEn": "/audio/en/us/ca_tim.mp3",
+    "meaningVi": "Quả cà màu tím hoặc trắng dùng để nấu những món ăn ngon.",
+    "ipa": "/ˈeɡ.plɑːnt/"
+  },
+  "con_be": {
+    "id": "con_be",
+    "wordVi": "bê",
+    "meaningsEn": [
+      {
+        "meaning": "calf",
+        "ipa": "/kæf/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Con bò con mới lớn, rất ngoan ngoãn và đáng yêu.",
+    "exampleVi": "Chú bê con tung tăng theo mẹ trên đồng cỏ.",
+    "sourcePages": [
+      21
+    ],
+    "audioVi": "/audio/vi/con_be.mp3",
+    "audioEn": "/audio/en/us/con_be.mp3",
+    "meaningVi": "Con bò con mới lớn, rất ngoan ngoãn và đáng yêu.",
+    "ipa": "/kæf/"
+  },
+  "be_ca": {
+    "id": "be_ca",
+    "wordVi": "bể cá",
+    "meaningsEn": [
+      {
+        "meaning": "aquarium",
+        "ipa": "/əˈkweə.ri.əm/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "fish tank",
+        "ipa": "/ˈfɪʃ ˌtæŋk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Bể kính trong suốt chứa nước để nuôi những chú cá cảnh xinh xắn.",
+    "exampleVi": "Bé thích ngắm cá bơi lội trong bể cá.",
+    "sourcePages": [
+      23
+    ],
+    "audioVi": "/audio/vi/be_ca.mp3",
+    "audioEn": "/audio/en/us/be_ca.mp3",
+    "meaningVi": "Bể kính trong suốt chứa nước để nuôi những chú cá cảnh xinh xắn.",
+    "ipa": "/əˈkweə.ri.əm/"
+  },
+  "con_co": {
+    "id": "con_co",
+    "wordVi": "cò",
+    "meaningsEn": [
+      {
+        "meaning": "stork",
+        "ipa": "/stɔːrk/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "egret",
+        "ipa": "/ˈiː.ɡrət/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Loài chim có bộ lông trắng tinh, chân dài và mỏ nhọn lội trên đồng cỏ.",
+    "exampleVi": "Con cò trắng bay lả bay la trên cánh đồng.",
+    "sourcePages": [
+      25,
+      26
+    ],
+    "audioVi": "/audio/vi/con_co.mp3",
+    "audioEn": "/audio/en/us/con_co.mp3",
+    "meaningVi": "Loài chim có bộ lông trắng tinh, chân dài và mỏ nhọn lội trên đồng cỏ.",
+    "ipa": "/stɔːrk/"
+  },
+  "bo_bien": {
+    "id": "bo_bien",
+    "wordVi": "bờ",
+    "meaningsEn": [
+      {
+        "meaning": "shore",
+        "ipa": "/ʃɔːr/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "bank",
+        "ipa": "/bæŋk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Phần đất ven mép nước như bờ sông, bờ hồ hoặc bờ biển.",
+    "exampleVi": "Bé ngồi hóng gió mát bên bờ hồ.",
+    "sourcePages": [
+      27
+    ],
+    "audioVi": "/audio/vi/bo_bien.mp3",
+    "audioEn": "/audio/en/us/bo_bien.mp3",
+    "meaningVi": "Phần đất ven mép nước như bờ sông, bờ hồ hoặc bờ biển.",
+    "ipa": "/ʃɔːr/"
+  },
+  "con_de": {
+    "id": "con_de",
+    "wordVi": "dê",
+    "meaningsEn": [
+      {
+        "meaning": "goat",
+        "ipa": "/ɡoʊt/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Con vật ăn cỏ có đôi tai vểnh, râu dài và đôi sừng cong xinh.",
+    "exampleVi": "Chú dê con kêu be be trên sườn đồi.",
+    "sourcePages": [
+      29
+    ],
+    "audioVi": "/audio/vi/con_de.mp3",
+    "audioEn": "/audio/en/us/con_de.mp3",
+    "meaningVi": "Con vật ăn cỏ có đôi tai vểnh, râu dài và đôi sừng cong xinh.",
+    "ipa": "/ɡoʊt/"
+  },
+  "con_do": {
+    "id": "con_do",
+    "wordVi": "đò",
+    "meaningsEn": [
+      {
+        "meaning": "boat",
+        "ipa": "/boʊt/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "ferry",
+        "ipa": "/ˈfer.i/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Thuyền chở người qua sông nhẹ nhàng trên dòng nước.",
+    "exampleVi": "Bác lái đò chở khách sang sông.",
+    "sourcePages": [
+      29,
+      35
+    ],
+    "audioVi": "/audio/vi/con_do.mp3",
+    "audioEn": "/audio/en/us/con_do.mp3",
+    "meaningVi": "Thuyền chở người qua sông nhẹ nhàng trên dòng nước.",
+    "ipa": "/boʊt/"
+  },
+  "bi_do": {
+    "id": "bi_do",
+    "wordVi": "bí đỏ",
+    "meaningsEn": [
+      {
+        "meaning": "pumpkin",
+        "ipa": "/ˈpʌmp.kɪn/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "squash",
+        "ipa": "/skwɑːʃ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Quả bí ngô có ruột màu vàng đỏ ngọt bùi, nấu canh rất bổ dưỡng.",
+    "exampleVi": "Mẹ nấu món canh bí đỏ thơm ngon cho cả nhà.",
+    "sourcePages": [
+      35
+    ],
+    "audioVi": "/audio/vi/bi_do.mp3",
+    "audioEn": "/audio/en/us/bi_do.mp3",
+    "meaningVi": "Quả bí ngô có ruột màu vàng đỏ ngọt bùi, nấu canh rất bổ dưỡng.",
+    "ipa": "/ˈpʌmp.kɪn/"
+  },
+  "ke_o": {
+    "id": "ke_o",
+    "wordVi": "kẻ ô",
+    "meaningsEn": [
+      {
+        "meaning": "draw a grid",
+        "ipa": "/drɔː ə ɡrɪd/",
+        "partOfSpeech": "verb"
+      }
+    ],
+    "partOfSpeech": "động từ",
+    "definitionVi": "Dùng bút và thước kẻ những đường ô vuông thẳng tắp.",
+    "exampleVi": "Bé tập kẻ ô vuông ngay ngắn trong vở.",
+    "sourcePages": [
+      35
+    ],
+    "audioVi": "/audio/vi/ke_o.mp3",
+    "audioEn": "/audio/en/us/ke_o.mp3",
+    "meaningVi": "Dùng bút và thước kẻ những đường ô vuông thẳng tắp.",
+    "ipa": "/drɔː ə ɡrɪd/"
+  },
+  "di_do": {
+    "id": "di_do",
+    "wordVi": "đi đò",
+    "meaningsEn": [
+      {
+        "meaning": "ride a boat",
+        "ipa": "/raɪd ə boʊt/",
+        "partOfSpeech": "verb"
+      }
+    ],
+    "partOfSpeech": "động từ",
+    "definitionVi": "Ngồi trên con thuyền đò để sang bờ sông bên kia.",
+    "exampleVi": "Bé được cùng mẹ đi đò ngắm cảnh quê hương.",
+    "sourcePages": [
+      35
+    ],
+    "audioVi": "/audio/vi/di_do.mp3",
+    "audioEn": "/audio/en/us/di_do.mp3",
+    "meaningVi": "Ngồi trên con thuyền đò để sang bờ sông bên kia.",
+    "ipa": "/raɪd ə boʊt/"
+  },
+  "la_do": {
+    "id": "la_do",
+    "wordVi": "lá đỏ",
+    "meaningsEn": [
+      {
+        "meaning": "red leaf",
+        "ipa": "/red liːf/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chiếc lá cây chuyển màu đỏ thắm tuyệt đẹp khi vào mùa thu.",
+    "exampleVi": "Bé nhặt chiếc lá đỏ rơi trên sân trường.",
+    "sourcePages": [
+      37
+    ],
+    "audioVi": "/audio/vi/la_do.mp3",
+    "audioEn": "/audio/en/us/la_do.mp3",
+    "meaningVi": "Chiếc lá cây chuyển màu đỏ thắm tuyệt đẹp khi vào mùa thu.",
+    "ipa": "/red liːf/"
+  },
+  "bo_ho": {
+    "id": "bo_ho",
+    "wordVi": "bờ hồ",
+    "meaningsEn": [
+      {
+        "meaning": "lakeside",
+        "ipa": "/ˈleɪk.saɪd/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "lakeshore",
+        "ipa": "/ˈleɪk.ʃɔːr/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Dải đất ven hồ nước có cây xanh bóng mát.",
+    "exampleVi": "Mọi người đi dạo thư thái quanh bờ hồ.",
+    "sourcePages": [
+      37,
+      43
+    ],
+    "audioVi": "/audio/vi/bo_ho.mp3",
+    "audioEn": "/audio/en/us/bo_ho.mp3",
+    "meaningVi": "Dải đất ven hồ nước có cây xanh bóng mát.",
+    "ipa": "/ˈleɪk.saɪd/"
+  },
+  "ho_du": {
+    "id": "ho_du",
+    "wordVi": "hổ dữ",
+    "meaningsEn": [
+      {
+        "meaning": "ferocious tiger",
+        "ipa": "/fəˈroʊ.ʃəs ˈtaɪ.ɡɚ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chú hổ to khỏe hung dữ được mệnh danh chúa sơn lâm.",
+    "exampleVi": "Bé biết hổ dữ là loài thú săn mồi trong rừng.",
+    "sourcePages": [
+      39,
+      40
+    ],
+    "audioVi": "/audio/vi/ho_du.mp3",
+    "audioEn": "/audio/en/us/ho_du.mp3",
+    "meaningVi": "Chú hổ to khỏe hung dữ được mệnh danh chúa sơn lâm.",
+    "ipa": "/fəˈroʊ.ʃəs ˈtaɪ.ɡɚ/"
+  },
+  "la_kho": {
+    "id": "la_kho",
+    "wordVi": "lá khô",
+    "meaningsEn": [
+      {
+        "meaning": "dry leaf",
+        "ipa": "/draɪ liːf/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chiếc lá úa vàng khô giòn rụng dưới gốc cây.",
+    "exampleVi": "Gió thổi làm lá khô xào xạc trên mặt đất.",
+    "sourcePages": [
+      41,
+      43
+    ],
+    "audioVi": "/audio/vi/la_kho.mp3",
+    "audioEn": "/audio/en/us/la_kho.mp3",
+    "meaningVi": "Chiếc lá úa vàng khô giòn rụng dưới gốc cây.",
+    "ipa": "/draɪ liːf/"
+  },
+  "ca_me": {
+    "id": "ca_me",
+    "wordVi": "cá mè",
+    "meaningsEn": [
+      {
+        "meaning": "silver carp",
+        "ipa": "/ˈsɪl.vɚ kɑːrp/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Loài cá sống ở ao hồ, có vảy trắng sáng và bơi nhanh.",
+    "exampleVi": "Bác nông dân thả đàn cá mè vào ao nhỏ.",
+    "sourcePages": [
+      45
+    ],
+    "audioVi": "/audio/vi/ca_me.mp3",
+    "audioEn": "/audio/en/us/ca_me.mp3",
+    "meaningVi": "Loài cá sống ở ao hồ, có vảy trắng sáng và bơi nhanh.",
+    "ipa": "/ˈsɪl.vɚ kɑːrp/"
+  },
+  "la_me": {
+    "id": "la_me",
+    "wordVi": "lá me",
+    "meaningsEn": [
+      {
+        "meaning": "tamarind leaf",
+        "ipa": "/ˈtæm.ə.rɪnd liːf/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chiếc lá nhỏ li ti của cây me có vị chua thanh dịu mát.",
+    "exampleVi": "Những chiếc lá me non xanh mướt đu đưa trong gió.",
+    "sourcePages": [
+      45
+    ],
+    "audioVi": "/audio/vi/la_me.mp3",
+    "audioEn": "/audio/en/us/la_me.mp3",
+    "meaningVi": "Chiếc lá nhỏ li ti của cây me có vị chua thanh dịu mát.",
+    "ipa": "/ˈtæm.ə.rɪnd liːf/"
+  },
+  "ga_go": {
+    "id": "ga_go",
+    "wordVi": "gà gô",
+    "meaningsEn": [
+      {
+        "meaning": "partridge",
+        "ipa": "/ˈpɑːr.trɪdʒ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Loài gà rừng nhỏ có bộ lông lốm đốm màu xám nâu.",
+    "exampleVi": "Chú gà gô kiếm ăn lặng lẽ trong lùm cây.",
+    "sourcePages": [
+      47
+    ],
+    "audioVi": "/audio/vi/ga_go.mp3",
+    "audioEn": "/audio/en/us/ga_go.mp3",
+    "meaningVi": "Loài gà rừng nhỏ có bộ lông lốm đốm màu xám nâu.",
+    "ipa": "/ˈpɑːr.trɪdʒ/"
+  },
+  "do_go": {
+    "id": "do_go",
+    "wordVi": "đồ gỗ",
+    "meaningsEn": [
+      {
+        "meaning": "wooden furniture",
+        "ipa": "/ˈwʊd.ən ˈfɝː.nɪ.tʃɚ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Bàn ghế, tủ giường và các vật dụng làm bằng gỗ bền đẹp.",
+    "exampleVi": "Nhà bé có nhiều món đồ gỗ sáng bóng.",
+    "sourcePages": [
+      47
+    ],
+    "audioVi": "/audio/vi/do_go.mp3",
+    "audioEn": "/audio/en/us/do_go.mp3",
+    "meaningVi": "Bàn ghế, tủ giường và các vật dụng làm bằng gỗ bền đẹp.",
+    "ipa": "/ˈwʊd.ən ˈfɝː.nɪ.tʃɚ/"
+  },
+  "gia_do": {
+    "id": "gia_do",
+    "wordVi": "giá đỗ",
+    "meaningsEn": [
+      {
+        "meaning": "bean sprouts",
+        "ipa": "/ˈbiːn ˌspraʊts/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Mầm hạt đỗ xanh trắng mọng nước, dùng nấu canh hoặc xào rất mát.",
+    "exampleVi": "Mẹ làm món rau xào giá đỗ giòn ngọt.",
+    "sourcePages": [
+      47,
+      53
+    ],
+    "audioVi": "/audio/vi/gia_do.mp3",
+    "audioEn": "/audio/en/us/gia_do.mp3",
+    "meaningVi": "Mầm hạt đỗ xanh trắng mọng nước, dùng nấu canh hoặc xào rất mát.",
+    "ipa": "/ˈbiːn ˌspraʊts/"
+  },
+  "cu_gia": {
+    "id": "cu_gia",
+    "wordVi": "củ già",
+    "meaningsEn": [
+      {
+        "meaning": "mature root",
+        "ipa": "/məˈtʃʊr ruːt/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Củ cây thu hoạch khi đã già dặn, đậm đà hương vị.",
+    "exampleVi": "Bà chọn củ gừng già thơm nồng để đun trà.",
+    "sourcePages": [
+      47
+    ],
+    "audioVi": "/audio/vi/cu_gia.mp3",
+    "audioEn": "/audio/en/us/cu_gia.mp3",
+    "meaningVi": "Củ cây thu hoạch khi đã già dặn, đậm đà hương vị.",
+    "ipa": "/məˈtʃʊr ruːt/"
+  },
+  "ghe_da": {
+    "id": "ghe_da",
+    "wordVi": "ghế đá",
+    "meaningsEn": [
+      {
+        "meaning": "stone bench",
+        "ipa": "/stoʊn bentʃ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chiếc ghế dài chắc chắn làm bằng đá đặt dưới bóng mát cây xanh.",
+    "exampleVi": "Giờ ra chơi, bé ngồi nghỉ ngơi trên ghế đá.",
+    "sourcePages": [
+      49
+    ],
+    "audioVi": "/audio/vi/ghe_da.mp3",
+    "audioEn": "/audio/en/us/ghe_da.mp3",
+    "meaningVi": "Chiếc ghế dài chắc chắn làm bằng đá đặt dưới bóng mát cây xanh.",
+    "ipa": "/stoʊn bentʃ/"
+  },
+  "nha_go": {
+    "id": "nha_go",
+    "wordVi": "nhà gỗ",
+    "meaningsEn": [
+      {
+        "meaning": "wooden house",
+        "ipa": "/ˈwʊd.ən haʊs/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Ngôi nhà làm từ gỗ mát mẻ vào mùa hè và ấm áp vào mùa đông.",
+    "exampleVi": "Quê nội có ngôi nhà gỗ cổ kính bên dòng suối.",
+    "sourcePages": [
+      49
+    ],
+    "audioVi": "/audio/vi/nha_go.mp3",
+    "audioEn": "/audio/en/us/nha_go.mp3",
+    "meaningVi": "Ngôi nhà làm từ gỗ mát mẻ vào mùa hè và ấm áp vào mùa đông.",
+    "ipa": "/ˈwʊd.ən haʊs/"
+  },
+  "la_nho": {
+    "id": "la_nho",
+    "wordVi": "lá nho",
+    "meaningsEn": [
+      {
+        "meaning": "grape leaf",
+        "ipa": "/ɡreɪp liːf/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chiếc lá xanh mướt của giàn nho sai trĩu quả.",
+    "exampleVi": "Giàn lá nho xum xuê che mát một góc sân.",
+    "sourcePages": [
+      49
+    ],
+    "audioVi": "/audio/vi/la_nho.mp3",
+    "audioEn": "/audio/en/us/la_nho.mp3",
+    "meaningVi": "Chiếc lá xanh mướt của giàn nho sai trĩu quả.",
+    "ipa": "/ɡreɪp liːf/"
+  },
+  "nga_ba": {
+    "id": "nga_ba",
+    "wordVi": "ngã ba",
+    "meaningsEn": [
+      {
+        "meaning": "three-way junction",
+        "ipa": "/ˈθriː.weɪ ˈdʒʌŋk.ʃən/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Nơi con đường rẽ sang ba ngả khác nhau.",
+    "exampleVi": "Đến ngã ba, bé chú ý quan sát trước khi rẽ.",
+    "sourcePages": [
+      51
+    ],
+    "audioVi": "/audio/vi/nga_ba.mp3",
+    "audioEn": "/audio/en/us/nga_ba.mp3",
+    "meaningVi": "Nơi con đường rẽ sang ba ngả khác nhau.",
+    "ipa": "/ˈθriː.weɪ ˈdʒʌŋk.ʃən/"
+  },
+  "cu_nghe": {
+    "id": "cu_nghe",
+    "wordVi": "củ nghệ",
+    "meaningsEn": [
+      {
+        "meaning": "turmeric",
+        "ipa": "/ˈtɝː.mər.ɪk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Loại củ có ruột vàng cam thơm lừng, dùng làm gia vị thơm ngon.",
+    "exampleVi": "Củ nghệ giúp món cá kho có màu vàng óng.",
+    "sourcePages": [
+      51
+    ],
+    "audioVi": "/audio/vi/cu_nghe.mp3",
+    "audioEn": "/audio/en/us/cu_nghe.mp3",
+    "meaningVi": "Loại củ có ruột vàng cam thơm lừng, dùng làm gia vị thơm ngon.",
+    "ipa": "/ˈtɝː.mər.ɪk/"
+  },
+  "nghi_he": {
+    "id": "nghi_he",
+    "wordVi": "nghỉ hè",
+    "meaningsEn": [
+      {
+        "meaning": "summer vacation",
+        "ipa": "/ˈsʌm.ɚ veɪˈkeɪ.ʃən/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Kỳ nghỉ vui tươi sau một năm học chăm chỉ của các bạn học sinh.",
+    "exampleVi": "Nghỉ hè, bé được về quê thăm ông bà.",
+    "sourcePages": [
+      51,
+      53
+    ],
+    "audioVi": "/audio/vi/nghi_he.mp3",
+    "audioEn": "/audio/en/us/nghi_he.mp3",
+    "meaningVi": "Kỳ nghỉ vui tươi sau một năm học chăm chỉ của các bạn học sinh.",
+    "ipa": "/ˈsʌm.ɚ veɪˈkeɪ.ʃən/"
+  },
+  "nha_ga": {
+    "id": "nha_ga",
+    "wordVi": "nhà ga",
+    "meaningsEn": [
+      {
+        "meaning": "train station",
+        "ipa": "/ˈtreɪn ˌsteɪ.ʃən/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Nơi xe lửa dừng đón và trả hành khách đi xa.",
+    "exampleVi": "Đoàn tàu hỏa rúc còi tiến vào nhà ga.",
+    "sourcePages": [
+      53
+    ],
+    "audioVi": "/audio/vi/nha_ga.mp3",
+    "audioEn": "/audio/en/us/nha_ga.mp3",
+    "meaningVi": "Nơi xe lửa dừng đón và trả hành khách đi xa.",
+    "ipa": "/ˈtreɪn ˌsteɪ.ʃən/"
+  },
+  "bap_ngo": {
+    "id": "bap_ngo",
+    "wordVi": "bắp ngô",
+    "meaningsEn": [
+      {
+        "meaning": "corn cob",
+        "ipa": "/ˈkɔːrn ˌkɑːb/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "maize",
+        "ipa": "/meɪz/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Bắp ngô vàng óng có hàng hạt đều tăm tắp, luộc ăn ngọt bùi.",
+    "exampleVi": "Bé thích ăn bắp ngô luộc nóng hổi vào buổi sáng.",
+    "sourcePages": [
+      53
+    ],
+    "audioVi": "/audio/vi/bap_ngo.mp3",
+    "audioEn": "/audio/en/us/bap_ngo.mp3",
+    "meaningVi": "Bắp ngô vàng óng có hàng hạt đều tăm tắp, luộc ăn ngọt bùi.",
+    "ipa": "/ˈkɔːrn ˌkɑːb/"
+  },
+  "chu_so": {
+    "id": "chu_so",
+    "wordVi": "chữ số",
+    "meaningsEn": [
+      {
+        "meaning": "digit",
+        "ipa": "/ˈdɪdʒ.ɪt/",
+        "partOfSpeech": "noun"
+      },
+      {
+        "meaning": "number",
+        "ipa": "/ˈnʌm.bɚ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Ký hiệu các con số toán học giúp bé tập đếm.",
+    "exampleVi": "Bé tập viết các chữ số từ một đến mười.",
+    "sourcePages": [
+      55
+    ],
+    "audioVi": "/audio/vi/chu_so.mp3",
+    "audioEn": "/audio/en/us/chu_so.mp3",
+    "meaningVi": "Ký hiệu các con số toán học giúp bé tập đếm.",
+    "ipa": "/ˈdɪdʒ.ɪt/"
+  },
+  "ga_ri": {
+    "id": "ga_ri",
+    "wordVi": "gà ri",
+    "meaningsEn": [
+      {
+        "meaning": "small native chicken",
+        "ipa": "/smɔːl ˈneɪ.tɪv ˈtʃɪk.ɪn/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Giống gà ri nhỏ nhắn, mổ thóc lách cách quanh sân.",
+    "exampleVi": "Đàn gà ri theo mẹ bới giun ngoài vườn.",
+    "sourcePages": [
+      56
+    ],
+    "audioVi": "/audio/vi/ga_ri.mp3",
+    "audioEn": "/audio/en/us/ga_ri.mp3",
+    "meaningVi": "Giống gà ri nhỏ nhắn, mổ thóc lách cách quanh sân.",
+    "ipa": "/smɔːl ˈneɪ.tɪv ˈtʃɪk.ɪn/"
+  },
+  "chu_he": {
+    "id": "chu_he",
+    "wordVi": "chú hề",
+    "meaningsEn": [
+      {
+        "meaning": "clown",
+        "ipa": "/klaʊn/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Người nghệ sĩ xiếc vui tính với chiếc mũi đỏ và bộ áo sặc sỡ.",
+    "exampleVi": "Chú hề tung hứng bóng làm các bé cười thích thú.",
+    "sourcePages": [
+      43
+    ],
+    "audioVi": "/audio/vi/chu_he.mp3",
+    "audioEn": "/audio/en/us/chu_he.mp3",
+    "meaningVi": "Người nghệ sĩ xiếc vui tính với chiếc mũi đỏ và bộ áo sặc sỡ.",
+    "ipa": "/klaʊn/"
+  },
+  "ca_co": {
+    "id": "ca_co",
+    "wordVi": "cá cờ",
+    "meaningsEn": [
+      {
+        "meaning": "sailfish",
+        "ipa": "/ˈseɪl.fɪʃ/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Loài cá biển nhanh nhẹn có vây lưng to cao như lá cờ.",
+    "exampleVi": "Chú cá cờ bơi vút qua làn nước biển xanh.",
+    "sourcePages": [
+      31,
+      33,
+      43
+    ],
+    "audioVi": "/audio/vi/ca_co.mp3",
+    "audioEn": "/audio/en/us/ca_co.mp3",
+    "meaningVi": "Loài cá biển nhanh nhẹn có vây lưng to cao như lá cờ.",
+    "ipa": "/ˈseɪl.fɪʃ/"
+  },
+  "ghe_go": {
+    "id": "ghe_go",
+    "wordVi": "ghế gỗ",
+    "meaningsEn": [
+      {
+        "meaning": "wooden chair",
+        "ipa": "/ˈwʊd.ən tʃer/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "partOfSpeech": "danh từ",
+    "definitionVi": "Chiếc ghế ngồi làm bằng gỗ chắc chắn và sạch sẽ.",
+    "exampleVi": "Bé ngồi học bài ngay ngắn trên chiếc ghế gỗ.",
+    "sourcePages": [
+      49,
+      53
+    ],
+    "audioVi": "/audio/vi/ghe_go.mp3",
+    "audioEn": "/audio/en/us/ghe_go.mp3",
+    "meaningVi": "Chiếc ghế ngồi làm bằng gỗ chắc chắn và sạch sẽ.",
+    "ipa": "/ˈwʊd.ən tʃer/"
+  },
+  "sach": {
+    "id": "sach",
+    "wordVi": "sách",
+    "meaningVi": "Tập hợp nhiều trang giấy in chữ hoặc tranh vẽ, đóng thành cuốn để đọc và học tập.",
+    "meaningsEn": [
+      {
+        "meaning": "book",
+        "ipa": "/bʊk/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/bʊk/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/sach.mp3",
+    "audioEn": "/audio/en/us/sach.mp3",
+    "sourcePages": [
+      9
+    ]
+  },
+  "chao_hoi": {
+    "id": "chao_hoi",
+    "wordVi": "chào hỏi",
+    "meaningVi": "Lời nói hoặc cử chỉ thân thiện, lễ phép khi gặp gỡ người lớn hoặc bạn bè.",
+    "meaningsEn": [
+      {
+        "meaning": "greet",
+        "ipa": "/ɡriːt/",
+        "partOfSpeech": "verb"
+      },
+      {
+        "meaning": "say hello",
+        "ipa": "/seɪ həˈloʊ/",
+        "partOfSpeech": "phrase"
+      }
+    ],
+    "ipa": "/ɡriːt/",
+    "partOfSpeech": "động từ",
+    "audioVi": "/audio/vi/chao_hoi.mp3",
+    "audioEn": "/audio/en/us/chao_hoi.mp3",
+    "sourcePages": [
+      16,
+      20
+    ]
+  },
+  "so_ba": {
+    "id": "so_ba",
+    "wordVi": "ba",
+    "meaningVi": "Số 3, số đếm tự nhiên liền sau số hai.",
+    "meaningsEn": [
+      {
+        "meaning": "three",
+        "ipa": "/θriː/",
+        "partOfSpeech": "number"
+      }
+    ],
+    "ipa": "/θriː/",
+    "partOfSpeech": "số từ",
+    "audioVi": "/audio/vi/so_ba.mp3",
+    "audioEn": "/audio/en/us/so_ba.mp3",
+    "sourcePages": [
+      17
+    ]
+  },
+  "gia_dinh": {
+    "id": "gia_dinh",
+    "wordVi": "gia đình",
+    "meaningVi": "Tổ ấm gồm có ông bà, cha mẹ và con cái cùng sống yêu thương, gắn bó với nhau.",
+    "meaningsEn": [
+      {
+        "meaning": "family",
+        "ipa": "/ˈfæm.əl.i/",
+        "partOfSpeech": "noun"
+      }
+    ],
+    "ipa": "/ˈfæm.əl.i/",
+    "partOfSpeech": "danh từ",
+    "audioVi": "/audio/vi/gia_dinh.mp3",
+    "audioEn": "/audio/en/us/gia_dinh.mp3",
+    "sourcePages": [
+      18
+    ]
+  }
+}

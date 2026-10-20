@@ -1,0 +1,2653 @@
+{
+  "title": "Tiếng Việt 1 - Tập Một",
+  "subtitle": "Kết nối tri thức với cuộc sống",
+  "publisher": "Nhà xuất bản Giáo dục Việt Nam",
+  "totalLessons": 21,
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "lessonNumber": 1,
+      "title": "Bài 1: A a",
+      "letters": "A a",
+      "pagePdf": 15,
+      "pageBook": 14,
+      "bannerImage": "/images/lessons/lesson_p15.jpg",
+      "nhanBiet": {
+        "sentence": "Nam và Hà ca hát.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Nam",
+            "entryId": "nam"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "và"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ca hát",
+            "entryId": "ca_hat"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "ca hát",
+          "entryId": "ca_hat"
+        },
+        {
+          "word": "Nam",
+          "entryId": "nam"
+        },
+        {
+          "word": "Hà",
+          "entryId": "ha"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "A, ba.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "A"
+          },
+          {
+            "type": "punct",
+            "text": ","
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ba",
+            "entryId": "bo"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Chào hỏi khi đến trường Tiểu học"
+    },
+    {
+      "id": "lesson-02",
+      "lessonNumber": 2,
+      "title": "Bài 2: B b",
+      "letters": "B b",
+      "pagePdf": 17,
+      "pageBook": 16,
+      "bannerImage": "/images/lessons/lesson_p17.jpg",
+      "nhanBiet": {
+        "sentence": "Bà cho bé búp bê.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "búp bê",
+            "entryId": "bup_be"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "bà",
+          "entryId": "ba_noi"
+        },
+        {
+          "word": "bé",
+          "entryId": "be"
+        },
+        {
+          "word": "búp bê",
+          "entryId": "bup_be"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "A, ba.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "A"
+          },
+          {
+            "type": "punct",
+            "text": ","
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ba",
+            "entryId": "bo"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Gia đình yêu thương của em"
+    },
+    {
+      "id": "lesson-03",
+      "lessonNumber": 3,
+      "title": "Bài 3: C c",
+      "letters": "C c",
+      "pagePdf": 19,
+      "pageBook": 18,
+      "bannerImage": "/images/lessons/lesson_p19.jpg",
+      "nhanBiet": {
+        "sentence": "Nam và bố câu cá.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Nam",
+            "entryId": "nam"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "và"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bố",
+            "entryId": "bo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "câu cá",
+            "entryId": "cau_ca"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "câu cá",
+          "entryId": "cau_ca"
+        },
+        {
+          "word": "cá",
+          "entryId": "ca"
+        },
+        {
+          "word": "bố",
+          "entryId": "bo"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "A, cá.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "A"
+          },
+          {
+            "type": "punct",
+            "text": ","
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cá",
+            "entryId": "ca"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Chào hỏi bác bảo vệ và người lớn"
+    },
+    {
+      "id": "lesson-04",
+      "lessonNumber": 4,
+      "title": "Bài 4: E e, Ê ê",
+      "letters": "E e, Ê ê",
+      "pagePdf": 21,
+      "pageBook": 20,
+      "bannerImage": "/images/lessons/lesson_p21.jpg",
+      "nhanBiet": {
+        "sentence": "Bé kể mẹ nghe về bạn bè.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "kể"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "nghe"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "về"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bạn bè",
+            "entryId": "ban_be"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "bạn bè",
+          "entryId": "ban_be"
+        },
+        {
+          "word": "mẹ",
+          "entryId": "me"
+        },
+        {
+          "word": "bế",
+          "entryId": "be_dong_tu"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bà bế bé.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bế",
+            "entryId": "be_dong_tu"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bé",
+            "entryId": "be"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Hoạt động vui chơi trên sân trường"
+    },
+    {
+      "id": "lesson-05",
+      "lessonNumber": 5,
+      "title": "Bài 5: Ôn tập và kể chuyện",
+      "letters": "a, b, c, e, ê",
+      "pagePdf": 23,
+      "pageBook": 22,
+      "bannerImage": "/images/lessons/lesson_p21.jpg",
+      "nhanBiet": {
+        "sentence": "Bà bế bé.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bế",
+            "entryId": "be_dong_tu"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bé",
+            "entryId": "be"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "búp bê",
+          "entryId": "bup_be"
+        },
+        {
+          "word": "dế mèn",
+          "entryId": "de_men"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bà bế bé.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bế",
+            "entryId": "be_dong_tu"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bé",
+            "entryId": "be"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "story": {
+        "title": "Búp bê và dế mèn",
+        "questions": [
+          "Búp bê làm những việc gì giúp cô chủ?",
+          "Vì sao chú dế mèn hát tặng bạn búp bê?",
+          "Búp bê cảm thấy thế nào khi nghe bài hát của dế mèn?"
+        ]
+      },
+      "luyenNoi": "Kể chuyện Búp bê và dế mèn"
+    },
+    {
+      "id": "lesson-06",
+      "lessonNumber": 6,
+      "title": "Bài 6: O o",
+      "letters": "O o",
+      "pagePdf": 25,
+      "pageBook": 24,
+      "bannerImage": "/images/lessons/lesson_p25.jpg",
+      "nhanBiet": {
+        "sentence": "Đàn bò gặm cỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Đàn"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bò",
+            "entryId": "con_bo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "gặm cỏ",
+            "entryId": "gam_co"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "bò",
+          "entryId": "con_bo"
+        },
+        {
+          "word": "cỏ",
+          "entryId": "co"
+        },
+        {
+          "word": "gặm cỏ",
+          "entryId": "gam_co"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bé có cỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cỏ",
+            "entryId": "co"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Chào hỏi khi gặp bạn bè và thầy cô"
+    },
+    {
+      "id": "lesson-07",
+      "lessonNumber": 7,
+      "title": "Bài 7: Ô ô, Ơ ơ",
+      "letters": "Ô ô, Ơ ơ",
+      "pagePdf": 27,
+      "pageBook": 26,
+      "bannerImage": "/images/lessons/lesson_p27.jpg",
+      "nhanBiet": {
+        "sentence": "Bố và Hà đi bộ trên hè phố.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bố",
+            "entryId": "bo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "và"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đi bộ",
+            "entryId": "di_bo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "trên"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "hè phố",
+            "entryId": "he_pho"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "đi bộ",
+          "entryId": "di_bo"
+        },
+        {
+          "word": "hè phố",
+          "entryId": "he_pho"
+        },
+        {
+          "word": "bố",
+          "entryId": "bo"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bố bế bé ca.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bố",
+            "entryId": "bo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bế",
+            "entryId": "be_dong_tu"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ca"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Phương tiện giao thông và an toàn khi đi bộ"
+    },
+    {
+      "id": "lesson-08",
+      "lessonNumber": 8,
+      "title": "Bài 8: D d, Đ đ",
+      "letters": "D d, Đ đ",
+      "pagePdf": 29,
+      "pageBook": 28,
+      "bannerImage": "/images/lessons/lesson_p29.jpg",
+      "nhanBiet": {
+        "sentence": "Dưới gốc đa, các bạn chơi dung dăng dung dẻ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Dưới"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "gốc"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đa"
+          },
+          {
+            "type": "punct",
+            "text": ","
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "các"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bạn",
+            "entryId": "ban_be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "chơi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "dung dăng dung dẻ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "ô đỏ",
+          "entryId": "o_do"
+        },
+        {
+          "word": "bé",
+          "entryId": "be"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bé có ô đỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ô đỏ",
+            "entryId": "o_do"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Chào hỏi lễ phép"
+    },
+    {
+      "id": "lesson-09",
+      "lessonNumber": 9,
+      "title": "Bài 9: Ôn tập Dấu hỏi, Dấu nặng",
+      "letters": "Dấu hỏi (?), Dấu nặng (.)",
+      "pagePdf": 31,
+      "pageBook": 30,
+      "bannerImage": "/images/lessons/lesson_p31.jpg",
+      "nhanBiet": {
+        "sentence": "Tàu dỡ hàng ở cảng.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Tàu"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "dỡ"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "hàng"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ở"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cảng"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "bờ đê",
+          "entryId": "bo_de"
+        },
+        {
+          "word": "đỡ bé",
+          "entryId": "do_be"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bố đỡ bé.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bố",
+            "entryId": "bo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đỡ bé",
+            "entryId": "do_be"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Phương tiện giao thông đường thủy và đường bộ"
+    },
+    {
+      "id": "lesson-10",
+      "lessonNumber": 10,
+      "title": "Bài 10: Ôn tập và kể chuyện",
+      "letters": "d, đ, o, ô, ơ",
+      "pagePdf": 33,
+      "pageBook": 32,
+      "bannerImage": "/images/lessons/lesson_p31.jpg",
+      "nhanBiet": {
+        "sentence": "Bờ đê có dế. Bà có đỗ đỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bờ đê",
+            "entryId": "bo_de"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "dế",
+            "entryId": "de_men"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đỗ đỏ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "bờ đê",
+          "entryId": "bo_de"
+        },
+        {
+          "word": "dế mèn",
+          "entryId": "de_men"
+        },
+        {
+          "word": "đàn kiến",
+          "entryId": "dan_kien"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bờ đê có dế. Bà có đỗ đỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bờ đê",
+            "entryId": "bo_de"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "dế",
+            "entryId": "de_men"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đỗ đỏ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "story": {
+        "title": "Đàn kiến con ngoan ngoãn",
+        "questions": [
+          "Bà kiến già sống ở đâu?",
+          "Đàn kiến con dùng vật gì để khiêng bà kiến đi dạo?",
+          "Đàn kiến con đưa bà kiến đến ngôi nhà mới xinh đẹp như thế nào?",
+          "Được ở nhà mới, bà kiến nói gì khen ngợi đàn kiến con?"
+        ]
+      },
+      "luyenNoi": "Kể chuyện Đàn kiến con ngoan ngoãn"
+    },
+    {
+      "id": "lesson-11",
+      "lessonNumber": 11,
+      "title": "Bài 11: I i, K k",
+      "letters": "I i, K k",
+      "pagePdf": 35,
+      "pageBook": 34,
+      "bannerImage": "/images/lessons/lesson_p35.jpg",
+      "nhanBiet": {
+        "sentence": "Nam vẽ kì đà.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Nam",
+            "entryId": "nam"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "vẽ"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "kì đà",
+            "entryId": "ki_da"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "kì đà",
+          "entryId": "ki_da"
+        },
+        {
+          "word": "kẽ đá",
+          "entryId": "ke_da"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Kì đà bò ở kẽ đá.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Kì đà",
+            "entryId": "ki_da"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bò"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ở"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "kẽ đá",
+            "entryId": "ke_da"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Giới thiệu bản thân và lớp học của em"
+    },
+    {
+      "id": "lesson-12",
+      "lessonNumber": 12,
+      "title": "Bài 12: H h, L l",
+      "letters": "H h, L l",
+      "pagePdf": 37,
+      "pageBook": 36,
+      "bannerImage": "/images/lessons/lesson_p37.jpg",
+      "nhanBiet": {
+        "sentence": "Le le bơi trên hồ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Le le",
+            "entryId": "le_le"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bơi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "trên"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "hồ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "le le",
+          "entryId": "le_le"
+        },
+        {
+          "word": "lá hẹ",
+          "entryId": "la_he"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bé bị ho. Bà đã có lá hẹ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bị"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ho"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đã"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "lá hẹ",
+            "entryId": "la_he"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Cây cối và các loài rau thuốc quanh em"
+    },
+    {
+      "id": "lesson-13",
+      "lessonNumber": 13,
+      "title": "Bài 13: U u, Ư ư",
+      "letters": "U u, Ư ư",
+      "pagePdf": 39,
+      "pageBook": 38,
+      "bannerImage": "/images/lessons/lesson_p39.jpg",
+      "nhanBiet": {
+        "sentence": "Đu đủ chín ngọt lừ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Đu đủ",
+            "entryId": "du_du"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "chín"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ngọt lừ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "đu đủ",
+          "entryId": "du_du"
+        },
+        {
+          "word": "cá hổ",
+          "entryId": "ca_ho"
+        },
+        {
+          "word": "dữ",
+          "entryId": "hung_du"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Cá hổ là cá dữ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Cá hổ",
+            "entryId": "ca_ho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "là"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cá",
+            "entryId": "ca"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "dữ",
+            "entryId": "hung_du"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Giới thiệu các loài quả và động vật quen thuộc"
+    },
+    {
+      "id": "lesson-14",
+      "lessonNumber": 14,
+      "title": "Bài 14: Ch ch, Kh kh",
+      "letters": "Ch ch, Kh kh",
+      "pagePdf": 41,
+      "pageBook": 40,
+      "bannerImage": "/images/lessons/lesson_p41.jpg",
+      "nhanBiet": {
+        "sentence": "Mấy chú khỉ ăn chuối.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Mấy"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "chú"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "khỉ",
+            "entryId": "con_khi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ăn"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "chuối",
+            "entryId": "chuoi"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "khỉ",
+          "entryId": "con_khi"
+        },
+        {
+          "word": "chuối",
+          "entryId": "chuoi"
+        },
+        {
+          "word": "khế",
+          "entryId": "khe"
+        },
+        {
+          "word": "cá kho",
+          "entryId": "ca_kho"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Chị có cá kho khế.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Chị"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cá kho",
+            "entryId": "ca_kho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "khế",
+            "entryId": "khe"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Cá cảnh và thế giới động vật dưới nước"
+    },
+    {
+      "id": "lesson-15",
+      "lessonNumber": 15,
+      "title": "Bài 15: Ôn tập và kể chuyện",
+      "letters": "ch, kh, h, l, u, ư",
+      "pagePdf": 43,
+      "pageBook": 42,
+      "bannerImage": "/images/lessons/lesson_p41.jpg",
+      "nhanBiet": {
+        "sentence": "Chị cho bé cá cờ. Dì Kha cho Hà đi chợ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Chị"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cá",
+            "entryId": "ca"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cờ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Dì"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Kha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "chợ",
+            "entryId": "cho_que"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "cá kho",
+          "entryId": "ca_kho"
+        },
+        {
+          "word": "khế",
+          "entryId": "khe"
+        },
+        {
+          "word": "con quạ",
+          "entryId": "con_qua"
+        },
+        {
+          "word": "thông minh",
+          "entryId": "thong_minh"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Chị cho bé cá cờ. Dì Kha cho Hà đi chợ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Chị"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bé",
+            "entryId": "be"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cá",
+            "entryId": "ca"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cờ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Dì"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Kha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "chợ",
+            "entryId": "cho_que"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "story": {
+        "title": "Con quạ thông minh",
+        "questions": [
+          "Quạ khát nước nhìn thấy bình nước ở đâu?",
+          "Vì sao quạ không thể thò mỏ vào uống nước ngay được?",
+          "Quạ đã nghĩ ra cách thả những viên sỏi nhỏ vào bình như thế nào?",
+          "Nước dâng lên và quạ đã uống nước thỏa thích ra sao?"
+        ]
+      },
+      "luyenNoi": "Kể chuyện Con quạ thông minh"
+    },
+    {
+      "id": "lesson-16",
+      "lessonNumber": 16,
+      "title": "Bài 16: M m, N n",
+      "letters": "M m, N n",
+      "pagePdf": 45,
+      "pageBook": 44,
+      "bannerImage": "/images/lessons/lesson_p45.jpg",
+      "nhanBiet": {
+        "sentence": "Mẹ mua nơ cho Hà.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "mua"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "nơ",
+            "entryId": "no_do"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "mẹ",
+          "entryId": "me"
+        },
+        {
+          "word": "nơ",
+          "entryId": "no_do"
+        },
+        {
+          "word": "ca nô",
+          "entryId": "ca_no"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bố mẹ cho Hà đi ca nô.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bố",
+            "entryId": "bo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ca nô",
+            "entryId": "ca_no"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Giới thiệu những chuyến đi vui vẻ của gia đình"
+    },
+    {
+      "id": "lesson-17",
+      "lessonNumber": 17,
+      "title": "Bài 17: G g, Gi gi",
+      "letters": "G g, Gi gi",
+      "pagePdf": 47,
+      "pageBook": 46,
+      "bannerImage": "/images/lessons/lesson_p47.jpg",
+      "nhanBiet": {
+        "sentence": "Hà có giỏ trứng gà.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "giỏ trứng",
+            "entryId": "gio_trung"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "gà",
+            "entryId": "con_ga"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "giỏ trứng",
+          "entryId": "gio_trung"
+        },
+        {
+          "word": "gà",
+          "entryId": "con_ga"
+        },
+        {
+          "word": "che gió",
+          "entryId": "che_gio"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Bà che gió cho ba chú gà.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "che gió",
+            "entryId": "che_gio"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ba"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "chú"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "gà",
+            "entryId": "con_ga"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Các loài vật nuôi dễ thương trong nhà"
+    },
+    {
+      "id": "lesson-18",
+      "lessonNumber": 18,
+      "title": "Bài 18: Gh gh, Nh nh",
+      "letters": "Gh gh, Nh nh",
+      "pagePdf": 49,
+      "pageBook": 48,
+      "bannerImage": "/images/lessons/lesson_p49.jpg",
+      "nhanBiet": {
+        "sentence": "Hà ghé nhà bà. Nhà bà ở ngõ nhỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ghé"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "nhà",
+            "entryId": "nha_ba"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Nhà",
+            "entryId": "nha_ba"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ở"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ngõ nhỏ",
+            "entryId": "ngo_nho"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "nhà",
+          "entryId": "nha_ba"
+        },
+        {
+          "word": "ngõ nhỏ",
+          "entryId": "ngo_nho"
+        },
+        {
+          "word": "ghế",
+          "entryId": "ghe_nho"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Mẹ nhờ Hà bê ghế nhỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "nhờ"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Hà",
+            "entryId": "ha"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bê"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ghế",
+            "entryId": "ghe_nho"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "nhỏ"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Giúp đỡ ông bà, bố mẹ việc nhà"
+    },
+    {
+      "id": "lesson-19",
+      "lessonNumber": 19,
+      "title": "Bài 19: Ng ng, Ngh ngh",
+      "letters": "Ng ng, Ngh ngh",
+      "pagePdf": 51,
+      "pageBook": 50,
+      "bannerImage": "/images/lessons/lesson_p51.jpg",
+      "nhanBiet": {
+        "sentence": "Nghé theo mẹ ra ngõ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Nghé",
+            "entryId": "con_nghe"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "theo"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ra"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ngõ",
+            "entryId": "ngo_nho"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "nghé",
+          "entryId": "con_nghe"
+        },
+        {
+          "word": "bờ đê",
+          "entryId": "bo_de"
+        },
+        {
+          "word": "cỏ",
+          "entryId": "co"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Nghé đã no cỏ. Nghé ngủ ở bờ đê.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Nghé",
+            "entryId": "con_nghe"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "đã"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "no"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cỏ",
+            "entryId": "co"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Nghé",
+            "entryId": "con_nghe"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ngủ"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ở"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bờ đê",
+            "entryId": "bo_de"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Thăm vườn bách thú và tìm hiểu thế giới loài vật"
+    },
+    {
+      "id": "lesson-20",
+      "lessonNumber": 20,
+      "title": "Bài 20: Ôn tập và kể chuyện",
+      "letters": "m, n, g, gi, gh, nh, ng, ngh",
+      "pagePdf": 53,
+      "pageBook": 52,
+      "bannerImage": "/images/lessons/lesson_p51.jpg",
+      "nhanBiet": {
+        "sentence": "Mẹ ghé nhà bà. Nhà bà ở ngõ nhỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ghé"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "nhà",
+            "entryId": "nha_ba"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Nhà",
+            "entryId": "nha_ba"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ở"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ngõ nhỏ",
+            "entryId": "ngo_nho"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "nhà",
+          "entryId": "nha_ba"
+        },
+        {
+          "word": "ngõ nhỏ",
+          "entryId": "ngo_nho"
+        },
+        {
+          "word": "ghế",
+          "entryId": "ghe_nho"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Mẹ ghé nhà bà. Nhà bà ở ngõ nhỏ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ghé"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "nhà",
+            "entryId": "nha_ba"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Nhà",
+            "entryId": "nha_ba"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bà",
+            "entryId": "ba_noi"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ở"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ngõ nhỏ",
+            "entryId": "ngo_nho"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "story": {
+        "title": "Cô chủ không biết quý tình bạn",
+        "questions": [
+          "Cô bé nuôi con gà mái và muốn đổi lấy con vật nào?",
+          "Cô bé lại đổi chú vịt lấy chú cún con xinh xắn ra sao?",
+          "Cuối cùng chú cún con có ở lại bên cô chủ không? Vì sao?",
+          "Bài học quý giá về việc biết trân trọng và yêu thương bạn bè quanh ta là gì?"
+        ]
+      },
+      "luyenNoi": "Kể chuyện Cô chủ không biết quý tình bạn"
+    },
+    {
+      "id": "lesson-21",
+      "lessonNumber": 21,
+      "title": "Bài 21: R r, S s",
+      "letters": "R r, S s",
+      "pagePdf": 55,
+      "pageBook": 54,
+      "bannerImage": "/images/lessons/lesson_p55.jpg",
+      "nhanBiet": {
+        "sentence": "Bầy sẻ non ríu ra ríu rít bên mẹ.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Bầy"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "sẻ",
+            "entryId": "chim_se"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "non"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ríu ra ríu rít",
+            "entryId": "riu_rit"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "bên"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "mẹ",
+            "entryId": "me"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "docTuNgu": [
+        {
+          "word": "sẻ",
+          "entryId": "chim_se"
+        },
+        {
+          "word": "ríu rít",
+          "entryId": "riu_rit"
+        },
+        {
+          "word": "chợ",
+          "entryId": "cho_que"
+        },
+        {
+          "word": "cá rô",
+          "entryId": "ca_ro"
+        },
+        {
+          "word": "su su",
+          "entryId": "su_su"
+        },
+        {
+          "word": "rổ rá",
+          "entryId": "ro_ra"
+        }
+      ],
+      "tapDoc": {
+        "sentence": "Chợ có gà ri, cá rô, su su. Chợ có cả rổ rá.",
+        "tokens": [
+          {
+            "type": "word",
+            "text": "Chợ",
+            "entryId": "cho_que"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "gà",
+            "entryId": "con_ga"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "ri"
+          },
+          {
+            "type": "punct",
+            "text": ","
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cá rô",
+            "entryId": "ca_ro"
+          },
+          {
+            "type": "punct",
+            "text": ","
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "su su",
+            "entryId": "su_su"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "Chợ",
+            "entryId": "cho_que"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "có"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "cả"
+          },
+          {
+            "type": "space",
+            "text": " "
+          },
+          {
+            "type": "word",
+            "text": "rổ rá",
+            "entryId": "ro_ra"
+          },
+          {
+            "type": "punct",
+            "text": "."
+          }
+        ]
+      },
+      "luyenNoi": "Nói lời cảm ơn trong giao tiếp hàng ngày"
+    }
+  ]
+}

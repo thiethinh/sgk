@@ -1,0 +1,12 @@
+2
+Lam quen
+a. Goi ten d6 dung hoc tap
+voi d6 dung
+hoc tap
+TIENG VIET 1
+TIENGVIET 1
+TAPHAI
+b. Tim hieu cong dung
+cua cac d6 dung
+hoc tap
+8
