@@ -1,14 +1,13 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { VocabEntry } from '../types';
-import { Volume2, BookOpen, Globe2, Bookmark, BookmarkCheck, ArrowRight } from 'lucide-react';
+import { Volume2, BookOpen, Globe2, ArrowRight } from 'lucide-react';
+import { playAudio, playSpeech } from '../utils/audioPlayer';
 
 interface VocabInfoPanelProps {
   currentEntry: VocabEntry | null;
   pageVocabEntries: VocabEntry[];
   allEntries: Record<string, VocabEntry>;
   currentPage: number;
-  savedWordIds: string[];
-  onToggleSave: (entryId: string) => void;
   onSelectWord: (entryId: string) => void;
   onNavigatePage?: (page: number) => void;
 }
@@ -18,105 +17,80 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
   pageVocabEntries,
   allEntries: _allEntries,
   currentPage,
-  savedWordIds,
-  onToggleSave,
   onSelectWord,
   onNavigatePage,
 }) => {
   const [playingVi, setPlayingVi] = useState(false);
   const [playingEn, setPlayingEn] = useState(false);
-  const audioViRef = useRef<HTMLAudioElement | null>(null);
-  const audioEnRef = useRef<HTMLAudioElement | null>(null);
 
   // Active entry must strictly be from current page's vocabulary list
   const activeEntry =
     (currentEntry && pageVocabEntries.some((e) => e.id === currentEntry.id)
       ? currentEntry
       : pageVocabEntries[0]) || null;
-  const isSaved = activeEntry ? savedWordIds.includes(activeEntry.id) : false;
 
   const playVietnamese = () => {
-    if (!activeEntry || playingVi) return;
+    if (!activeEntry) return;
+    setPlayingEn(false);
     setPlayingVi(true);
 
+    const cleanVi = activeEntry.wordVi.split(' (')[0];
+
     if (activeEntry.audioVi) {
-      if (!audioViRef.current) {
-        audioViRef.current = new Audio(activeEntry.audioVi);
-      } else {
-        audioViRef.current.src = activeEntry.audioVi;
-      }
-
-      audioViRef.current.onended = () => setPlayingVi(false);
-      audioViRef.current.onerror = () => {
-        if ('speechSynthesis' in window) {
-          const u = new SpeechSynthesisUtterance(activeEntry.wordVi);
-          u.lang = 'vi-VN';
-          u.onend = () => setPlayingVi(false);
-          u.onerror = () => setPlayingVi(false);
-          window.speechSynthesis.speak(u);
-        } else {
-          setPlayingVi(false);
-        }
-      };
-
-      audioViRef.current.play().catch(() => {
-        if ('speechSynthesis' in window) {
-          const u = new SpeechSynthesisUtterance(activeEntry.wordVi);
-          u.lang = 'vi-VN';
-          u.onend = () => setPlayingVi(false);
-          u.onerror = () => setPlayingVi(false);
-          window.speechSynthesis.speak(u);
-        } else {
-          setPlayingVi(false);
-        }
+      playAudio(activeEntry.audioVi, {
+        onStart: () => setPlayingVi(true),
+        onEnded: () => setPlayingVi(false),
+        onError: () => {
+          playSpeech(cleanVi, 'vi-VN', {
+            onStart: () => setPlayingVi(true),
+            onEnded: () => setPlayingVi(false),
+            onError: () => setPlayingVi(false),
+          });
+        },
+      });
+    } else {
+      playSpeech(cleanVi, 'vi-VN', {
+        onStart: () => setPlayingVi(true),
+        onEnded: () => setPlayingVi(false),
+        onError: () => setPlayingVi(false),
       });
     }
   };
 
   const playEnglish = () => {
-    if (!activeEntry || playingEn) return;
+    if (!activeEntry) return;
+    setPlayingVi(false);
     setPlayingEn(true);
 
+    const primaryEn = activeEntry.meaningsEn[0]?.meaning.split(' (')[0] || '';
+    const speakText = (activeEntry.id === 'c' || primaryEn.toLowerCase() === 'c') ? 'see' : primaryEn;
+
     if (activeEntry.audioEn) {
-      if (!audioEnRef.current) {
-        audioEnRef.current = new Audio(activeEntry.audioEn);
-      } else {
-        audioEnRef.current.src = activeEntry.audioEn;
-      }
-
-      audioEnRef.current.onended = () => setPlayingEn(false);
-      audioEnRef.current.onerror = () => {
-        if ('speechSynthesis' in window) {
-          const primaryEn = activeEntry.meaningsEn[0]?.meaning.split(' (')[0] || '';
-          const u = new SpeechSynthesisUtterance(primaryEn);
-          u.lang = 'en-US';
-          u.onend = () => setPlayingEn(false);
-          u.onerror = () => setPlayingEn(false);
-          window.speechSynthesis.speak(u);
-        } else {
-          setPlayingEn(false);
-        }
-      };
-
-      audioEnRef.current.play().catch(() => {
-        if ('speechSynthesis' in window) {
-          const primaryEn = activeEntry.meaningsEn[0]?.meaning.split(' (')[0] || '';
-          const u = new SpeechSynthesisUtterance(primaryEn);
-          u.lang = 'en-US';
-          u.onend = () => setPlayingEn(false);
-          u.onerror = () => setPlayingEn(false);
-          window.speechSynthesis.speak(u);
-        } else {
-          setPlayingEn(false);
-        }
+      playAudio(activeEntry.audioEn, {
+        onStart: () => setPlayingEn(true),
+        onEnded: () => setPlayingEn(false),
+        onError: () => {
+          playSpeech(speakText, 'en-US', {
+            onStart: () => setPlayingEn(true),
+            onEnded: () => setPlayingEn(false),
+            onError: () => setPlayingEn(false),
+          });
+        },
+      });
+    } else {
+      playSpeech(speakText, 'en-US', {
+        onStart: () => setPlayingEn(true),
+        onEnded: () => setPlayingEn(false),
+        onError: () => setPlayingEn(false),
       });
     }
   };
 
   const playQuickAudio = (e: React.MouseEvent, audioSrc: string) => {
     e.stopPropagation();
-    const a = new Audio(audioSrc);
-    a.play().catch(() => {});
+    setPlayingVi(false);
+    setPlayingEn(false);
+    playAudio(audioSrc);
   };
 
   return (
@@ -129,35 +103,9 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
           </span>
 
           {activeEntry && (
-            <div className="flex items-center gap-2">
-              <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-lg border border-slate-200">
-                {activeEntry.partOfSpeech}
-              </span>
-
-              {/* Bookmark Save Button */}
-              <button
-                type="button"
-                onClick={() => onToggleSave(activeEntry.id)}
-                className={`flex items-center gap-1 px-2.5 py-1 rounded-xl text-xs font-black transition-all shadow-xs cursor-pointer ${
-                  isSaved
-                    ? 'bg-rose-500 text-white hover:bg-rose-600'
-                    : 'bg-white hover:bg-rose-50 text-slate-600 hover:text-rose-600 border border-slate-200'
-                }`}
-                title={isSaved ? 'Đã lưu vào Sổ tay từ vựng (Nhấn để bỏ lưu)' : 'Bấm để lưu vào Sổ tay từ vựng'}
-              >
-                {isSaved ? (
-                  <>
-                    <BookmarkCheck className="w-3.5 h-3.5 fill-current" />
-                    <span>Đã lưu</span>
-                  </>
-                ) : (
-                  <>
-                    <Bookmark className="w-3.5 h-3.5" />
-                    <span>Lưu từ này</span>
-                  </>
-                )}
-              </button>
-            </div>
+            <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-lg border border-slate-200">
+              {activeEntry.partOfSpeech}
+            </span>
           )}
         </div>
 
@@ -295,7 +243,6 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
           {pageVocabEntries.length > 0 ? (
             pageVocabEntries.map((entry) => {
               const isSelected = activeEntry?.id === entry.id;
-              const isWordSaved = savedWordIds.includes(entry.id);
 
               return (
                 <div
@@ -303,27 +250,11 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
                   onClick={() => onSelectWord(entry.id)}
                   className={`p-2.5 rounded-2xl border-2 transition-all cursor-pointer flex items-center justify-between gap-2 ${
                     isSelected
-                      ? 'bg-gradient-to-r from-amber-100 to-amber-50 border-amber-400 shadow-sm scale-101 ring-2 ring-amber-300/60'
+                      ? 'bg-amber-100/90 border-amber-400 shadow-sm ring-2 ring-amber-300/60'
                       : 'bg-slate-50 hover:bg-amber-50/70 border-slate-200 hover:border-amber-300'
                   }`}
                 >
-                  <div className="flex items-center gap-2">
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        onToggleSave(entry.id);
-                      }}
-                      className={`p-1 rounded-lg transition-colors ${
-                        isWordSaved
-                          ? 'text-rose-500 hover:text-rose-600 bg-rose-50'
-                          : 'text-slate-300 hover:text-rose-500 hover:bg-slate-100'
-                      }`}
-                      title={isWordSaved ? 'Đã lưu (bấm để bỏ)' : 'Lưu vào sổ tay'}
-                    >
-                      <Bookmark className={`w-3.5 h-3.5 ${isWordSaved ? 'fill-current' : ''}`} />
-                    </button>
-
+                  <div className="flex items-center gap-2 pl-1">
                     <div>
                       <div className="flex items-center gap-1.5">
                         <span className="font-black text-sm text-indigo-900 font-heading">

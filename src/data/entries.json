@@ -5,9 +5,9 @@
     "meaningVi": "Chữ cái c, ghi âm cờ trong bảng chữ cái tiếng Việt.",
     "meaningsEn": [
       {
-        "meaning": "Letter C / Phoneme /k/",
-        "ipa": "/ˈletər siː/",
-        "partOfSpeech": "noun"
+        "meaning": "C",
+        "ipa": "/siː/",
+        "partOfSpeech": "Chữ cái"
       }
     ],
     "ipa": "/kəː˧˧/",
@@ -101,17 +101,17 @@
   },
   "b3_thoai_1": {
     "id": "b3_thoai_1",
-    "wordVi": "Cháu chào bác ạ! (Good morning)",
-    "meaningVi": "Hội thoại chào hỏi lễ phép của bạn học sinh khi gặp bác bảo vệ ở cổng trường học.",
+    "wordVi": "Chào buổi sáng (Good morning)",
+    "meaningVi": "Lời chào buổi sáng lịch sự, vui tươi.",
     "meaningsEn": [
       {
-        "meaning": "Good morning (Greeting the school guard)",
+        "meaning": "Good morning",
         "ipa": "/ɡʊd ˈmɔːrnɪŋ/",
-        "partOfSpeech": "dialogue"
+        "partOfSpeech": "Chào hỏi"
       }
     ],
-    "ipa": "/tɕaʊ˧˦ tɕaːw˨˩ ɓaːk˧˦ aː˧˨/",
-    "partOfSpeech": "Hội thoại",
+    "ipa": "/tɕaːw˨˩ ɓwəj˧˩ saːŋ˧˦/",
+    "partOfSpeech": "Chào hỏi",
     "audioVi": "/audio/vi/b3_thoai_1.mp3",
     "audioEn": "/audio/en/us/b3_thoai_1.mp3",
     "sourcePages": [
@@ -121,17 +121,17 @@
   },
   "b3_thoai_2": {
     "id": "b3_thoai_2",
-    "wordVi": "Chào các bạn! (Hi)",
-    "meaningVi": "Lời chào tươi vui, thân thiện của bạn nhỏ khi bước vào lớp học gặp gỡ thầy cô và bạn bè.",
+    "wordVi": "Xin chào (Hi)",
+    "meaningVi": "Lời chào thân thiện, vui vẻ khi gặp nhau.",
     "meaningsEn": [
       {
-        "meaning": "Hi (Greeting classmates)",
+        "meaning": "Hi",
         "ipa": "/haɪ/",
-        "partOfSpeech": "dialogue"
+        "partOfSpeech": "Chào hỏi"
       }
     ],
-    "ipa": "/tɕaːw˨˩ kaːk˧˦ ɓaːn˧˨/",
-    "partOfSpeech": "Hội thoại",
+    "ipa": "/siɲ˧˧ tɕaːw˨˩/",
+    "partOfSpeech": "Chào hỏi",
     "audioVi": "/audio/vi/b3_thoai_2.mp3",
     "audioEn": "/audio/en/us/b3_thoai_2.mp3",
     "sourcePages": [

@@ -1,6 +1,7 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import { VocabEntry } from '../types';
 import { Volume2, X, BookOpen, Globe2, Sparkles, CheckCircle2 } from 'lucide-react';
+import { playAudio, playSpeech, stopAllAudio } from '../utils/audioPlayer';
 
 interface VocabModalProps {
   entry: VocabEntry | null;
@@ -10,99 +11,75 @@ interface VocabModalProps {
 export const VocabModal: React.FC<VocabModalProps> = ({ entry, onClose }) => {
   const [playingVi, setPlayingVi] = useState(false);
   const [playingEn, setPlayingEn] = useState(false);
-  const audioViRef = useRef<HTMLAudioElement | null>(null);
-  const audioEnRef = useRef<HTMLAudioElement | null>(null);
 
-  // Close on Escape key
+  // Close on Escape key and stop any audio
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
+        stopAllAudio();
         onClose();
       }
     };
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      stopAllAudio();
+    };
   }, [onClose]);
 
   if (!entry) return null;
 
   const playVietnamese = () => {
-    if (playingVi) return;
+    setPlayingEn(false);
     setPlayingVi(true);
 
+    const cleanVi = entry.wordVi.split(' (')[0];
+
     if (entry.audioVi) {
-      if (!audioViRef.current) {
-        audioViRef.current = new Audio(entry.audioVi);
-      } else {
-        audioViRef.current.src = entry.audioVi;
-      }
-
-      audioViRef.current.onended = () => setPlayingVi(false);
-      audioViRef.current.onerror = () => {
-        // Fallback to SpeechSynthesis
-        if ('speechSynthesis' in window) {
-          const utterance = new SpeechSynthesisUtterance(entry.wordVi);
-          utterance.lang = 'vi-VN';
-          utterance.onend = () => setPlayingVi(false);
-          utterance.onerror = () => setPlayingVi(false);
-          window.speechSynthesis.speak(utterance);
-        } else {
-          setPlayingVi(false);
-        }
-      };
-
-      audioViRef.current.play().catch(() => {
-        // Fallback
-        if ('speechSynthesis' in window) {
-          const utterance = new SpeechSynthesisUtterance(entry.wordVi);
-          utterance.lang = 'vi-VN';
-          utterance.onend = () => setPlayingVi(false);
-          utterance.onerror = () => setPlayingVi(false);
-          window.speechSynthesis.speak(utterance);
-        } else {
-          setPlayingVi(false);
-        }
+      playAudio(entry.audioVi, {
+        onStart: () => setPlayingVi(true),
+        onEnded: () => setPlayingVi(false),
+        onError: () => {
+          playSpeech(cleanVi, 'vi-VN', {
+            onStart: () => setPlayingVi(true),
+            onEnded: () => setPlayingVi(false),
+            onError: () => setPlayingVi(false),
+          });
+        },
+      });
+    } else {
+      playSpeech(cleanVi, 'vi-VN', {
+        onStart: () => setPlayingVi(true),
+        onEnded: () => setPlayingVi(false),
+        onError: () => setPlayingVi(false),
       });
     }
   };
 
   const playEnglish = () => {
-    if (playingEn) return;
+    setPlayingVi(false);
     setPlayingEn(true);
 
+    const primaryEn = entry.meaningsEn[0]?.meaning.split(' (')[0] || '';
+    const speakText = (entry.id === 'c' || primaryEn.toLowerCase() === 'c') ? 'see' : primaryEn;
+
     if (entry.audioEn) {
-      if (!audioEnRef.current) {
-        audioEnRef.current = new Audio(entry.audioEn);
-      } else {
-        audioEnRef.current.src = entry.audioEn;
-      }
-
-      audioEnRef.current.onended = () => setPlayingEn(false);
-      audioEnRef.current.onerror = () => {
-        // Fallback to SpeechSynthesis
-        if ('speechSynthesis' in window) {
-          const primaryEn = entry.meaningsEn[0]?.meaning.split(' (')[0] || '';
-          const utterance = new SpeechSynthesisUtterance(primaryEn);
-          utterance.lang = 'en-US';
-          utterance.onend = () => setPlayingEn(false);
-          utterance.onerror = () => setPlayingEn(false);
-          window.speechSynthesis.speak(utterance);
-        } else {
-          setPlayingEn(false);
-        }
-      };
-
-      audioEnRef.current.play().catch(() => {
-        if ('speechSynthesis' in window) {
-          const primaryEn = entry.meaningsEn[0]?.meaning.split(' (')[0] || '';
-          const utterance = new SpeechSynthesisUtterance(primaryEn);
-          utterance.lang = 'en-US';
-          utterance.onend = () => setPlayingEn(false);
-          utterance.onerror = () => setPlayingEn(false);
-          window.speechSynthesis.speak(utterance);
-        } else {
-          setPlayingEn(false);
-        }
+      playAudio(entry.audioEn, {
+        onStart: () => setPlayingEn(true),
+        onEnded: () => setPlayingEn(false),
+        onError: () => {
+          playSpeech(speakText, 'en-US', {
+            onStart: () => setPlayingEn(true),
+            onEnded: () => setPlayingEn(false),
+            onError: () => setPlayingEn(false),
+          });
+        },
+      });
+    } else {
+      playSpeech(speakText, 'en-US', {
+        onStart: () => setPlayingEn(true),
+        onEnded: () => setPlayingEn(false),
+        onError: () => setPlayingEn(false),
       });
     }
   };

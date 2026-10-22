@@ -4,7 +4,6 @@ import { BookOpen, HelpCircle } from 'lucide-react';
 interface HeaderProps {
   currentLessonIndex: number;
   totalLessons: number;
-  savedCount?: number;
   onOpenAllVocab: () => void;
   onOpenHelp: () => void;
 }
@@ -12,34 +11,23 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({
   currentLessonIndex,
   totalLessons,
-  savedCount = 0,
   onOpenAllVocab,
   onOpenHelp,
 }) => {
   const progressPercent = Math.round(((currentLessonIndex + 1) / totalLessons) * 100);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-amber-200/80 shadow-xs transition-all">
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
           {/* Logo & Main Title Section */}
-          <div className="flex items-start sm:items-center gap-3">
-            <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-indigo-600 to-blue-700 flex items-center justify-center shadow-sm shrink-0">
-              <BookOpen className="w-6 h-6 text-white" />
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-indigo-600 to-blue-700 flex items-center justify-center shadow-sm shrink-0">
+              <BookOpen className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
             </div>
-            <div>
-              <div className="flex items-center gap-2 mb-0.5">
-                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-[11px] font-bold rounded border border-indigo-200">
-                  Tiếng Việt 1 — Bộ Kết nối tri thức
-                </span>
-              </div>
-              <h1 className="text-base sm:text-lg md:text-xl font-black text-slate-900 tracking-tight leading-snug">
-                VIỆT NGỮ MỞ LỐI – ANH NGỮ VƯƠN XA
-              </h1>
-              <p className="text-xs text-slate-600 font-medium leading-normal">
-                Học liệu điện tử song ngữ Việt – Anh trong dạy học Tiếng Việt lớp 1
-              </p>
-            </div>
+            <h1 className="text-base sm:text-lg md:text-xl font-black text-slate-900 tracking-tight leading-snug">
+              VIỆT NGỮ MỞ LỐI – ANH NGỮ VƯƠN XA
+            </h1>
           </div>
 
           {/* Right Action Buttons */}
@@ -61,15 +49,10 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               type="button"
               onClick={onOpenAllVocab}
-              className="flex items-center gap-1.5 px-3 py-1.5 sm:px-3.5 sm:py-2 bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs hover:shadow transition-all active:scale-95 cursor-pointer"
-              title="Mở sổ tay từ vựng bé đã lưu"
+              className="px-3.5 py-1.5 sm:py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs hover:shadow-sm transition-all active:scale-95 cursor-pointer"
+              title="Tra cứu từ vựng bài học"
             >
-              <span>Sổ tay từ vựng</span>
-              {savedCount > 0 && (
-                <span className="ml-0.5 px-1.5 py-0.2 bg-white/25 text-white rounded-md text-[11px] font-black">
-                  {savedCount}
-                </span>
-              )}
+              Sổ tay từ vựng
             </button>
 
             {/* Help button */}

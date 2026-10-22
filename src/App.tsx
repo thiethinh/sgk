@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import entriesDataRaw from './data/entries.json';
 import pageOverlaysRaw from './data/page_overlays.json';
 import { VocabEntry, PageOverlayData, PageOverlayItem } from './types';
@@ -7,6 +7,7 @@ import { PdfPageView } from './components/PdfPageView';
 import { VocabInfoPanel } from './components/VocabInfoPanel';
 import { AllVocabModal } from './components/AllVocabModal';
 import { HelpModal } from './components/HelpModal';
+import { playAudio, stopAllAudio } from './utils/audioPlayer';
 
 const entriesData = entriesDataRaw as Record<string, VocabEntry>;
 const pageOverlays = pageOverlaysRaw as Record<string, PageOverlayData>;
@@ -18,34 +19,6 @@ export function App() {
   const [selectedOverlayId, setSelectedOverlayId] = useState<string | null>('ov_t1_ca_nuoc');
   const [isAllVocabOpen, setIsAllVocabOpen] = useState(false);
   const [isHelpOpen, setIsHelpOpen] = useState(false);
-
-  // Saved vocabulary notebook state with localStorage persistence
-  const [savedWordIds, setSavedWordIds] = useState<string[]>(() => {
-    try {
-      const stored = localStorage.getItem('sgk1_saved_vocab_ids');
-      if (stored) {
-        return JSON.parse(stored);
-      }
-    } catch {
-      // fallback
-    }
-    // Default sample saved words for a welcoming start
-    return ['ca_nuoc', 'con_bo', 'dan_kien_title'];
-  });
-
-  useEffect(() => {
-    try {
-      localStorage.setItem('sgk1_saved_vocab_ids', JSON.stringify(savedWordIds));
-    } catch {
-      // ignore
-    }
-  }, [savedWordIds]);
-
-  const handleToggleSave = (entryId: string) => {
-    setSavedWordIds((prev) =>
-      prev.includes(entryId) ? prev.filter((id) => id !== entryId) : [...prev, entryId]
-    );
-  };
 
   const totalPages = 5;
   const currentPageData: PageOverlayData = pageOverlays[currentPage.toString()] || {
@@ -70,15 +43,12 @@ export function App() {
     setSelectedOverlayId(item.id);
     if (item.entryId && entriesData[item.entryId]) {
       setSelectedEntryId(item.entryId);
-      // Immediate English pronunciation feedback on tapping word
+      // Strictly single audio playback: plays English pronunciation, stopping all others
       const audioUrl = entriesData[item.entryId].audioEn;
       if (audioUrl) {
-        try {
-          const audio = new Audio(audioUrl);
-          audio.play().catch(() => {});
-        } catch (e) {
-          // ignore audio play errors in unsupported environments
-        }
+        playAudio(audioUrl);
+      } else {
+        stopAllAudio();
       }
     }
   };
@@ -92,19 +62,19 @@ export function App() {
     } else {
       setSelectedOverlayId(null);
     }
-    // Immediate English pronunciation feedback when selecting from English word list
+    // Strictly single audio playback: plays English pronunciation, stopping all others
     const audioUrl = entriesData[entryId]?.audioEn;
     if (audioUrl) {
-      try {
-        const audio = new Audio(audioUrl);
-        audio.play().catch(() => {});
-      } catch (e) {
-        // ignore audio play errors
-      }
+      playAudio(audioUrl);
+    } else {
+      stopAllAudio();
     }
   };
 
   const handlePageChange = (newPage: number) => {
+    // Stop any ongoing audio when changing page
+    stopAllAudio();
+
     const validPage = Math.max(1, Math.min(totalPages, newPage));
     setCurrentPage(validPage);
     setSelectedOverlayId(null);
@@ -130,7 +100,6 @@ export function App() {
       <Header
         currentLessonIndex={currentPage - 1}
         totalLessons={5}
-        savedCount={savedWordIds.length}
         onOpenAllVocab={() => setIsAllVocabOpen(true)}
         onOpenHelp={() => setIsHelpOpen(true)}
       />
@@ -152,15 +121,13 @@ export function App() {
             />
           </div>
 
-          {/* RIGHT COLUMN: TOP VOCAB CARD (WITH SAVE) + BOTTOM SUGGESTED WORDS */}
+          {/* RIGHT COLUMN: TOP VOCAB CARD + BOTTOM SUGGESTED WORDS */}
           <div className="lg:col-span-5 xl:col-span-5 lg:sticky lg:top-20">
             <VocabInfoPanel
               currentEntry={currentEntry}
               pageVocabEntries={pageVocabEntries}
               allEntries={entriesData}
               currentPage={currentPage}
-              savedWordIds={savedWordIds}
-              onToggleSave={handleToggleSave}
               onSelectWord={handleSelectWordFromRight}
               onNavigatePage={handlePageChange}
             />
@@ -171,8 +138,6 @@ export function App() {
       {/* Modals */}
       <AllVocabModal
         entries={entriesData}
-        savedWordIds={savedWordIds}
-        onToggleSave={handleToggleSave}
         isOpen={isAllVocabOpen}
         onClose={() => setIsAllVocabOpen(false)}
         onSelectWord={(entryId) => {

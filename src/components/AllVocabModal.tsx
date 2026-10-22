@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { VocabEntry } from '../types';
-import { X, Search, Volume2, ArrowRight, BookMarked, Bookmark, BookmarkCheck, Trash2 } from 'lucide-react';
+import { playAudio, stopAllAudio } from '../utils/audioPlayer';
 
 interface AllVocabModalProps {
   entries: Record<string, VocabEntry>;
-  savedWordIds: string[];
-  onToggleSave: (entryId: string) => void;
   isOpen: boolean;
   onClose: () => void;
   onSelectWord: (entryId: string) => void;
@@ -13,24 +11,24 @@ interface AllVocabModalProps {
 
 export const AllVocabModal: React.FC<AllVocabModalProps> = ({
   entries,
-  savedWordIds,
-  onToggleSave,
   isOpen,
   onClose,
   onSelectWord,
 }) => {
-  // Tab: 'saved' (ONLY SAVED WORDS - default!) or 'all'
-  const [activeTab, setActiveTab] = useState<'saved' | 'all'>('saved');
   const [searchTerm, setSearchTerm] = useState('');
+
+  // Stop audio on unmount or close
+  useEffect(() => {
+    return () => {
+      stopAllAudio();
+    };
+  }, []);
 
   if (!isOpen) return null;
 
   const allList = Object.values(entries);
-  const savedList = allList.filter((item) => savedWordIds.includes(item.id));
 
-  const currentDisplayList = activeTab === 'saved' ? savedList : allList;
-
-  const filteredList = currentDisplayList.filter((item) => {
+  const filteredList = allList.filter((item) => {
     const term = searchTerm.toLowerCase().trim();
     if (!term) return true;
     return (
@@ -42,189 +40,116 @@ export const AllVocabModal: React.FC<AllVocabModalProps> = ({
 
   const playQuickAudio = (e: React.MouseEvent, audioSrc: string) => {
     e.stopPropagation();
-    const audio = new Audio(audioSrc);
-    audio.play().catch(() => {});
+    playAudio(audioSrc);
+  };
+
+  const handleClose = () => {
+    stopAllAudio();
+    onClose();
   };
 
   return (
     <div
-      className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in"
-      onClick={onClose}
+      className="fixed inset-0 z-[60] flex items-center justify-center p-3 sm:p-4 bg-slate-900/50 backdrop-blur-xs animate-fade-in"
+      onClick={handleClose}
       role="dialog"
       aria-modal="true"
     >
       <div
-        className="relative w-full max-w-3xl max-h-[85vh] flex flex-col bg-white rounded-3xl shadow-2xl border-4 border-amber-300 overflow-hidden"
+        className="relative w-full max-w-3xl max-h-[85vh] flex flex-col bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
-        <div className="p-4 sm:p-5 bg-gradient-to-r from-amber-50 via-rose-50 to-amber-50 border-b border-amber-200 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="p-2.5 bg-rose-500 text-white rounded-2xl shadow-sm">
-              <BookMarked className="w-6 h-6" />
-            </div>
-            <div>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-800 font-heading">
-                Sổ Tay Từ Vựng Của Bé
-              </h2>
-              <p className="text-xs text-slate-500 font-medium">
-                Chỉ lưu và ôn tập các từ vựng bé đã tích lưu khi học bài
-              </p>
-            </div>
+        {/* Header - Chỉ dùng chữ, không dùng icon */}
+        <div className="px-5 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+          <div>
+            <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+              Sổ Tay Từ Vựng
+            </h2>
+            <p className="text-xs text-slate-500 font-medium">
+              Tra cứu và nghe phát âm toàn bộ từ vựng, câu hội thoại trong các bài học
+            </p>
           </div>
           <button
-            onClick={onClose}
+            onClick={handleClose}
             type="button"
-            className="p-2 text-slate-400 hover:text-rose-600 bg-white hover:bg-rose-50 rounded-full transition-colors"
+            className="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 bg-slate-200/70 hover:bg-slate-300 rounded-lg transition-colors cursor-pointer"
             title="Đóng (Esc)"
           >
-            <X className="w-5 h-5" />
+            Đóng
           </button>
         </div>
 
-        {/* Tab Switcher & Search Bar */}
-        <div className="p-3 sm:p-4 bg-slate-50 border-b border-slate-200 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
-          {/* Tabs */}
-          <div className="flex items-center gap-1.5 bg-slate-200/80 p-1 rounded-2xl">
-            <button
-              type="button"
-              onClick={() => setActiveTab('saved')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-bold text-xs transition-all ${
-                activeTab === 'saved'
-                  ? 'bg-rose-500 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              <BookmarkCheck className="w-3.5 h-3.5" />
-              <span>Đã lưu ({savedList.length})</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setActiveTab('all')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-bold text-xs transition-all ${
-                activeTab === 'all'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              <span>Tất cả từ ({allList.length})</span>
-            </button>
-          </div>
-
-          {/* Search Bar */}
-          <div className="relative flex-1 max-w-xs">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+        {/* Search Bar & Counter - Chỉ dùng ô nhập chữ, không dùng icon */}
+        <div className="px-5 py-3 bg-white border-b border-slate-100 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+          <div className="relative flex-1 max-w-sm">
             <input
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Tìm từ trong sổ tay..."
-              className="w-full pl-9 pr-3 py-1.5 bg-white border border-slate-200 rounded-xl text-xs font-semibold text-slate-800 focus:outline-none focus:border-rose-400"
+              placeholder="Tìm kiếm từ tiếng Việt, tiếng Anh..."
+              className="w-full px-3 py-1.5 bg-slate-50 hover:bg-white focus:bg-white border border-slate-200 focus:border-indigo-500 rounded-lg text-xs font-medium text-slate-800 placeholder-slate-400 transition-colors focus:outline-none"
             />
+          </div>
+
+          <div className="text-xs font-semibold text-slate-500 shrink-0">
+            Tổng số: <span className="font-bold text-slate-800">{filteredList.length}</span> / {allList.length} từ
           </div>
         </div>
 
-        {/* Words Grid */}
-        <div className="p-4 sm:p-5 overflow-y-auto flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3 scrollbar-thin">
-          {filteredList.map((entry) => {
-            const isSaved = savedWordIds.includes(entry.id);
-
-            return (
-              <div
-                key={entry.id}
-                onClick={() => {
-                  onClose();
-                  onSelectWord(entry.id);
-                }}
-                className="group p-3 bg-gradient-to-br from-white to-amber-50/40 hover:to-rose-50 rounded-2xl border-2 border-slate-200 hover:border-rose-300 shadow-xs hover:shadow-md transition-all cursor-pointer flex flex-col justify-between"
-              >
-                <div>
-                  <div className="flex items-start justify-between gap-2">
-                    <div>
-                      <h3 className="text-lg font-black text-indigo-700 font-heading group-hover:text-rose-700 transition-colors">
-                        {entry.wordVi}
-                      </h3>
-                      <div className="text-xs text-sky-800 font-bold mt-0.5">
-                        {entry.meaningsEn[0]?.meaning}
-                        {entry.ipa && (
-                          <span className="ml-1 text-slate-400 font-mono text-[11px]">
-                            {entry.ipa}
-                          </span>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className="flex items-center gap-1">
-                      <button
-                        type="button"
-                        onClick={(e) => playQuickAudio(e, entry.audioEn)}
-                        className="p-1.5 text-sky-600 hover:text-sky-700 bg-sky-50 hover:bg-sky-100 rounded-xl transition-colors cursor-pointer"
-                        title="Nghe phát âm tiếng Anh"
-                      >
-                        <Volume2 className="w-3.5 h-3.5" />
-                      </button>
-
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          onToggleSave(entry.id);
-                        }}
-                        className={`p-1.5 rounded-xl transition-colors ${
-                          isSaved
-                            ? 'text-rose-500 hover:text-rose-700 bg-rose-50 hover:bg-rose-100'
-                            : 'text-slate-300 hover:text-rose-500 hover:bg-slate-100'
-                        }`}
-                        title={isSaved ? 'Xóa khỏi sổ tay' : 'Lưu vào sổ tay'}
-                      >
-                        {isSaved ? (
-                          <Trash2 className="w-3.5 h-3.5" />
-                        ) : (
-                          <Bookmark className="w-3.5 h-3.5" />
-                        )}
-                      </button>
+        {/* Words Grid - Chỉ hiển thị nội dung chữ, không dùng icon */}
+        <div className="p-4 sm:p-5 overflow-y-auto flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3 scrollbar-thin bg-slate-50/50">
+          {filteredList.map((entry) => (
+            <div
+              key={entry.id}
+              onClick={() => {
+                handleClose();
+                onSelectWord(entry.id);
+              }}
+              className="group p-3.5 bg-white rounded-xl border border-slate-200 hover:border-indigo-300 hover:shadow-xs transition-all cursor-pointer flex flex-col justify-between gap-2.5"
+            >
+              <div>
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 className="text-base font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
+                      {entry.wordVi}
+                    </h3>
+                    <div className="text-xs text-slate-700 font-medium mt-0.5">
+                      <span>{entry.meaningsEn[0]?.meaning}</span>
+                      {entry.ipa && (
+                        <span className="ml-1.5 text-slate-400 font-mono text-[11px]">
+                          {entry.ipa}
+                        </span>
+                      )}
                     </div>
                   </div>
 
-                  <p className="text-xs text-slate-600 mt-1.5 line-clamp-2 leading-relaxed">
-                    {entry.meaningVi}
-                  </p>
-                </div>
-
-                <div className="flex items-center justify-between mt-2.5 pt-2 border-t border-slate-100 text-[11px] text-slate-400">
-                  <span className="capitalize">{entry.partOfSpeech}</span>
-                  <span className="flex items-center gap-1 text-indigo-600 font-bold group-hover:underline">
-                    <span>Đến bài đọc</span>
-                    <ArrowRight className="w-3 h-3" />
-                  </span>
-                </div>
-              </div>
-            );
-          })}
-
-          {filteredList.length === 0 && (
-            <div className="col-span-full py-12 text-center text-slate-400 font-medium space-y-2">
-              {activeTab === 'saved' ? (
-                <>
-                  <Bookmark className="w-10 h-10 text-amber-300 mx-auto" />
-                  <p className="text-base font-bold text-slate-700">
-                    Sổ tay của bé chưa có từ vựng nào!
-                  </p>
-                  <p className="text-xs text-slate-400 max-w-sm mx-auto">
-                    Khi đọc sách, bé hãy bấm vào nút 🔖 "Lưu từ này" ở khung bên phải để lưu các từ mình yêu thích vào đây nhé.
-                  </p>
                   <button
                     type="button"
-                    onClick={() => setActiveTab('all')}
-                    className="mt-2 px-4 py-1.5 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 font-bold text-xs rounded-xl"
+                    onClick={(e) => playQuickAudio(e, entry.audioEn)}
+                    className="px-2.5 py-1 text-xs font-semibold text-indigo-700 hover:text-indigo-800 bg-indigo-50 hover:bg-indigo-100 rounded-lg border border-indigo-200 transition-colors cursor-pointer shrink-0"
+                    title="Nghe phát âm tiếng Anh"
                   >
-                    Xem tất cả từ vựng trong sách
+                    Nghe
                   </button>
-                </>
-              ) : (
-                <p>Không tìm thấy từ vựng nào khớp với từ khóa "{searchTerm}".</p>
-              )}
+                </div>
+
+                <p className="text-xs text-slate-600 mt-2 line-clamp-2 leading-relaxed">
+                  {entry.meaningVi}
+                </p>
+              </div>
+
+              <div className="flex items-center justify-between pt-2 border-t border-slate-100 text-[11px] text-slate-400">
+                <span className="capitalize">{entry.partOfSpeech}</span>
+                <span className="text-indigo-600 font-semibold group-hover:underline text-xs">
+                  Xem vị trí bài học
+                </span>
+              </div>
+            </div>
+          ))}
+
+          {filteredList.length === 0 && (
+            <div className="col-span-full py-12 text-center text-slate-400 font-medium">
+              Không tìm thấy từ vựng nào khớp với từ khóa "{searchTerm}".
             </div>
           )}
         </div>

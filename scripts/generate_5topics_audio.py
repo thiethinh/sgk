@@ -1,7 +1,10 @@
 import asyncio
 import os
+import sys
 from pathlib import Path
 import edge_tts
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 VI_VOICE = "vi-VN-HoaiMyNeural"
 EN_VOICE = "en-US-JennyNeural"
@@ -15,13 +18,13 @@ en_dir.mkdir(parents=True, exist_ok=True)
 # Audio items: (entry_id, vi_text, en_text)
 audio_items = [
     # TOPIC 1
-    ("c", "cờ", "Letter C"),
+    ("c", "cờ", "C"),
     ("ca_nuoc", "ca", "cup"),
     ("ca_tim", "cà", "eggplant"),
     ("ca", "cá", "fish"),
     ("a_ca", "A, cá.", "Wow, fishes!"),
-    ("b3_thoai_1", "Cháu chào bác ạ!", "Good morning"),
-    ("b3_thoai_2", "Chào các bạn!", "Hi"),
+    ("b3_thoai_1", "Chào buổi sáng", "Good morning"),
+    ("b3_thoai_2", "Xin chào", "Hi"),
     
     # TOPIC 2
     ("con_bo", "bò", "cow"),
