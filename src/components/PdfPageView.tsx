@@ -179,7 +179,7 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
   return (
     <div className="flex flex-col gap-2.5 relative">
       {/* CUTE STICKY NOTE: COMPLETELY OUTSIDE THE SGK PANEL AT TOP-LEFT */}
-      <div className="hidden xl:flex flex-col w-[128px] bg-gradient-to-br from-amber-100 via-amber-50 to-amber-200/95 border-2 border-amber-300/90 rounded-2xl p-2 shadow-lg shadow-amber-300/40 -rotate-3 hover:rotate-0 transition-transform duration-200 absolute -left-[140px] top-2 z-30 select-none cursor-default">
+      <div className="hidden xl:flex flex-col w-[128px] bg-gradient-to-br from-amber-100 via-amber-50 to-amber-200/95 border-2 border-amber-300/90 rounded-2xl p-2 shadow-lg shadow-amber-300/40 -rotate-3 hover:rotate-0 transition-transform duration-200 absolute -left-[140px] top-2 z-10 select-none cursor-default">
         {/* Cute Pin */}
         <div className="text-center -mt-4 mb-0.5">
           <span className="text-xl drop-shadow-sm filter">📌</span>

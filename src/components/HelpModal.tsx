@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Sparkles, Volume2, MousePointerClick, Heart } from 'lucide-react';
+import { X, BookOpen, Volume2, MousePointerClick, BookmarkCheck } from 'lucide-react';
 
 interface HelpModalProps {
   isOpen: boolean;
@@ -11,65 +11,70 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
     >
       <div
-        className="relative w-full max-w-lg bg-gradient-to-b from-white to-amber-50 rounded-3xl shadow-2xl border-4 border-amber-300 p-6 md:p-8 overflow-hidden"
+        className="relative w-full max-w-lg bg-gradient-to-b from-white to-amber-50 rounded-3xl shadow-2xl border-2 border-amber-300 p-6 md:p-8 overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
           type="button"
-          className="absolute top-4 right-4 p-2 text-slate-400 hover:text-rose-600 bg-white hover:bg-rose-50 rounded-full transition-colors"
+          className="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-700 bg-white hover:bg-slate-100 rounded-full transition-colors cursor-pointer"
         >
-          <X className="w-6 h-6" />
+          <X className="w-5 h-5" />
         </button>
 
-        <div className="flex items-center gap-2 mb-4">
-          <div className="p-2 bg-amber-400 text-slate-900 rounded-2xl shadow-sm">
-            <Sparkles className="w-5 h-5" />
+        <div className="flex items-center gap-2.5 mb-5">
+          <div className="p-2 bg-indigo-600 text-white rounded-xl shadow-xs">
+            <BookOpen className="w-5 h-5" />
           </div>
-          <h2 className="text-2xl font-black text-slate-800 font-heading">
-            Hướng Dẫn Cho Bé & Phụ Huynh
-          </h2>
+          <div>
+            <h2 className="text-xl font-black text-slate-800">
+              Hướng Dẫn Sử Dụng Học Liệu
+            </h2>
+            <p className="text-xs text-slate-500">
+              Dành cho giáo viên, phụ huynh và học sinh lớp 1
+            </p>
+          </div>
         </div>
 
-        <div className="space-y-4 text-slate-700 text-sm md:text-base">
-          <div className="flex items-start gap-3 bg-white p-3.5 rounded-2xl border border-amber-200">
-            <div className="p-2 bg-amber-100 text-amber-700 rounded-xl shrink-0 mt-0.5">
+        <div className="space-y-3.5 text-slate-700 text-sm">
+          <div className="flex items-start gap-3 bg-white p-3.5 rounded-2xl border border-amber-200 shadow-xs">
+            <div className="p-2 bg-amber-100 text-amber-800 rounded-xl shrink-0 mt-0.5">
               <MousePointerClick className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 mb-0.5">1. Chạm vào từ có màu nổi bật</h4>
+              <h4 className="font-bold text-slate-900 mb-0.5">1. Chạm vào từ hoặc tranh trên trang sách</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
-                Khi đọc câu, bé hãy nhấn vào các từ vựng có viền vàng cam để mở cửa sổ tra cứu nghĩa và phiên âm.
+                Khi đọc trang sách, chạm vào bất kỳ từ vựng hoặc hình minh họa có khung tương tác để xem nghĩa, phiên âm và nghe giọng đọc.
               </p>
             </div>
           </div>
 
-          <div className="flex items-start gap-3 bg-white p-3.5 rounded-2xl border border-amber-200">
-            <div className="p-2 bg-emerald-100 text-emerald-700 rounded-xl shrink-0 mt-0.5">
+          <div className="flex items-start gap-3 bg-white p-3.5 rounded-2xl border border-amber-200 shadow-xs">
+            <div className="p-2 bg-emerald-100 text-emerald-800 rounded-xl shrink-0 mt-0.5">
               <Volume2 className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 mb-0.5">2. Lắng nghe giọng đọc mẫu</h4>
+              <h4 className="font-bold text-slate-900 mb-0.5">2. Luyện nghe phát âm chuẩn song ngữ Việt – Anh</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
-                Bé bấm nút màu xanh lá để nghe cô giáo phát âm tiếng Việt, hoặc nút màu xanh biển để nghe phát âm tiếng Anh giọng Mỹ.
+                Bấm nút loa Tiếng Việt để nghe phát âm mẫu, hoặc bấm nút loa Tiếng Anh để nghe phát âm bản ngữ theo ngữ cảnh tự nhiên.
               </p>
             </div>
           </div>
 
-          <div className="flex items-start gap-3 bg-white p-3.5 rounded-2xl border border-amber-200">
-            <div className="p-2 bg-sky-100 text-sky-700 rounded-xl shrink-0 mt-0.5">
-              <Heart className="w-5 h-5" />
+          <div className="flex items-start gap-3 bg-white p-3.5 rounded-2xl border border-amber-200 shadow-xs">
+            <div className="p-2 bg-blue-100 text-blue-800 rounded-xl shrink-0 mt-0.5">
+              <BookmarkCheck className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 mb-0.5">3. Tiến bộ mỗi ngày</h4>
+              <h4 className="font-bold text-slate-900 mb-0.5">3. Lưu từ vào sổ tay và chuyển bài học</h4>
               <p className="text-slate-600 text-xs sm:text-sm">
-                Sử dụng các nút "Bài trước", "Bài tiếp theo" để khám phá trọn vẹn 21 bài học đầu đời của bộ sách Kết nối tri thức.
+                Sử dụng nút "Lưu vào sổ tay" để ôn tập từ vựng yêu thích, hoặc dùng thanh chuyển bài để di chuyển nhanh giữa các chủ đề SGK.
               </p>
             </div>
           </div>
@@ -78,9 +83,9 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
         <button
           type="button"
           onClick={onClose}
-          className="w-full mt-6 py-3 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-slate-900 font-extrabold text-base rounded-2xl shadow-md transition-all active:scale-98 cursor-pointer"
+          className="w-full mt-6 py-2.5 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold text-sm rounded-xl shadow-sm transition-all active:scale-98 cursor-pointer"
         >
-          Bé đã hiểu, bắt đầu đọc thôi!
+          Đã hiểu, bắt đầu khám phá
         </button>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { VocabEntry } from '../types';
-import { Volume2, BookOpen, Globe2, Sparkles, Bookmark, BookmarkCheck, ArrowRight } from 'lucide-react';
+import { Volume2, BookOpen, Globe2, Bookmark, BookmarkCheck, ArrowRight } from 'lucide-react';
 
 interface VocabInfoPanelProps {
   currentEntry: VocabEntry | null;
@@ -124,8 +124,7 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
       {/* 1. KHUNG THÔNG TIN TỪ NẰM TRÊN CÙNG (TOP VOCAB CARD) */}
       <div className="bg-gradient-to-b from-white via-amber-50/70 to-white rounded-3xl shadow-lg border-3 border-amber-300 p-4 sm:p-5 transition-all duration-200">
         <div className="flex items-center justify-between gap-2 mb-2">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-200 text-amber-900 font-extrabold text-xs uppercase tracking-wider rounded-full shadow-xs">
-            <Sparkles className="w-3.5 h-3.5 text-amber-700" />
+          <span className="inline-flex items-center px-3 py-1 bg-amber-200 text-amber-900 font-extrabold text-xs uppercase tracking-wider rounded-full shadow-xs">
             Từ Vựng Đang Xem
           </span>
 
@@ -277,18 +276,13 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
       {/* 2. GỢI Ý CÁC TỪ MỞ SẴN Ở BÊN DƯỚI (SUGGESTED WORDS LIST) */}
       <div className="bg-white rounded-3xl shadow-md border-3 border-amber-200 p-4 flex-1 flex flex-col">
         <div className="flex items-center justify-between gap-2 mb-2.5">
-          <div className="flex items-center gap-2">
-            <div className="p-1 bg-emerald-500 text-white rounded-lg shadow-xs">
-              <Sparkles className="w-3.5 h-3.5" />
-            </div>
-            <div>
-              <h3 className="text-sm font-black text-slate-800 font-heading">
-                Gợi Ý Từ Vựng & Hội Thoại (Bài {currentPage})
-              </h3>
-              <p className="text-[10px] text-slate-400">
-                Nhấn vào từ hoặc tranh để xem thông tin & vị trí trên sách
-              </p>
-            </div>
+          <div>
+            <h3 className="text-sm font-black text-slate-800 font-heading">
+              Gợi Ý Từ Vựng & Hội Thoại (Bài {currentPage})
+            </h3>
+            <p className="text-[10px] text-slate-400">
+              Nhấn vào từ hoặc tranh để xem thông tin & vị trí trên sách
+            </p>
           </div>
 
           <span className="text-xs font-black text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded-full border border-emerald-300">

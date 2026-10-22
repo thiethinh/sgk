@@ -7,7 +7,6 @@ import { PdfPageView } from './components/PdfPageView';
 import { VocabInfoPanel } from './components/VocabInfoPanel';
 import { AllVocabModal } from './components/AllVocabModal';
 import { HelpModal } from './components/HelpModal';
-import { Sparkles, Heart } from 'lucide-react';
 
 const entriesData = entriesDataRaw as Record<string, VocabEntry>;
 const pageOverlays = pageOverlaysRaw as Record<string, PageOverlayData>;
@@ -191,19 +190,23 @@ export function App() {
       />
 
       {/* Footer */}
-      <footer className="mt-4 py-4 border-t border-amber-200 bg-white/80 backdrop-blur-xs text-center text-xs text-slate-500 space-y-1 px-4">
-        <div className="flex items-center justify-center gap-1 font-bold text-slate-600">
-          <span>Sản phẩm tập đọc tương tác Tiếng Việt Lớp 1</span>
-          <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline" />
-          <span>kèm từ điển song ngữ ngữ cảnh và sổ tay từ vựng của bé</span>
+      <footer className="mt-8 py-6 border-t border-slate-200/80 bg-white/90 backdrop-blur-xs text-center text-xs text-slate-600 px-4">
+        <div className="max-w-4xl mx-auto space-y-1.5">
+          <h2 className="text-sm sm:text-base font-extrabold text-slate-800 tracking-tight">
+            VIỆT NGỮ MỞ LỐI – ANH NGỮ VƯƠN XA
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-600 font-medium">
+            Học liệu điện tử song ngữ Việt – Anh trong dạy học Tiếng Việt lớp 1
+          </p>
+          <div className="pt-2.5 border-t border-slate-100 text-[11px] text-slate-500 space-y-1">
+            <p>
+              Tài liệu nguồn: Sách giáo khoa Tiếng Việt 1 - Bộ Kết nối tri thức với cuộc sống (NXB Giáo dục Việt Nam).
+            </p>
+            <p>
+              Học liệu điện tử tương tác đa phương tiện hỗ trợ học sinh học chữ, phát âm chuẩn và mở rộng vốn từ song ngữ theo ngữ cảnh bài học.
+            </p>
+          </div>
         </div>
-        <p>
-          Tài liệu nguồn: Sách giáo khoa Tiếng Việt 1 - Tập Một (Bộ Kết nối tri thức với cuộc sống, NXB Giáo dục Việt Nam).
-        </p>
-        <p className="flex items-center justify-center gap-1 text-[11px] text-slate-400">
-          <Sparkles className="w-3 h-3 text-amber-500" />
-          Lọc sạch 100% vần, tên riêng và tiêu đề rác — chỉ lưu trữ từ vựng có ý nghĩa học tập.
-        </p>
       </footer>
     </div>
   );

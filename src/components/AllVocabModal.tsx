@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { VocabEntry } from '../types';
-import { X, Search, Volume2, Sparkles, BookMarked, Bookmark, BookmarkCheck, Trash2 } from 'lucide-react';
+import { X, Search, Volume2, ArrowRight, BookMarked, Bookmark, BookmarkCheck, Trash2 } from 'lucide-react';
 
 interface AllVocabModalProps {
   entries: Record<string, VocabEntry>;
@@ -48,7 +48,7 @@ export const AllVocabModal: React.FC<AllVocabModalProps> = ({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
@@ -195,8 +195,8 @@ export const AllVocabModal: React.FC<AllVocabModalProps> = ({
                 <div className="flex items-center justify-between mt-2.5 pt-2 border-t border-slate-100 text-[11px] text-slate-400">
                   <span className="capitalize">{entry.partOfSpeech}</span>
                   <span className="flex items-center gap-1 text-indigo-600 font-bold group-hover:underline">
-                    <Sparkles className="w-3 h-3 text-amber-500" />
-                    Đến bài đọc
+                    <span>Đến bài đọc</span>
+                    <ArrowRight className="w-3 h-3" />
                   </span>
                 </div>
               </div>
