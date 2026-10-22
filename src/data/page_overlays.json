@@ -1,2024 +1,460 @@
 {
   "1": {
     "pageNumber": 1,
-    "image": "/pages/page_001.jpg",
-    "overlays": [],
-    "vocabWordIds": []
+    "image": "/pages/topic_1.png",
+    "overlays": [
+      {
+        "id": "ov_t1_c",
+        "text": "c",
+        "entryId": "c",
+        "left": 24.8,
+        "top": 44.8,
+        "width": 3.2,
+        "height": 4.8,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t1_ca_nuoc",
+        "text": "ca",
+        "entryId": "ca_nuoc",
+        "left": 10.4,
+        "top": 72.2,
+        "width": 5.5,
+        "height": 4.8,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t1_ca_tim",
+        "text": "cà",
+        "entryId": "ca_tim",
+        "left": 22.8,
+        "top": 72.2,
+        "width": 5.5,
+        "height": 4.8,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t1_ca",
+        "text": "cá",
+        "entryId": "ca",
+        "left": 35.4,
+        "top": 72.2,
+        "width": 5.5,
+        "height": 4.8,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t1_a_ca",
+        "text": "A, cá.",
+        "entryId": "a_ca",
+        "left": 63.8,
+        "top": 19.8,
+        "width": 8.8,
+        "height": 5.5,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t1_thoai_1",
+        "text": "Tranh 1: Cháu chào bác ạ! (Good morning)",
+        "entryId": "b3_thoai_1",
+        "left": 56.4,
+        "top": 57.8,
+        "width": 18.6,
+        "height": 37.0
+      },
+      {
+        "id": "ov_t1_thoai_2",
+        "text": "Tranh 2: Chào các bạn! (Hi)",
+        "entryId": "b3_thoai_2",
+        "left": 75.7,
+        "top": 57.8,
+        "width": 18.6,
+        "height": 37.0
+      }
+    ],
+    "vocabWordIds": [
+      "ca_nuoc",
+      "ca_tim",
+      "ca",
+      "c",
+      "a_ca",
+      "b3_thoai_1",
+      "b3_thoai_2"
+    ]
   },
   "2": {
     "pageNumber": 2,
-    "image": "/pages/page_002.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "3": {
-    "pageNumber": 3,
-    "image": "/pages/page_003.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "4": {
-    "pageNumber": 4,
-    "image": "/pages/page_004.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "5": {
-    "pageNumber": 5,
-    "image": "/pages/page_005.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "6": {
-    "pageNumber": 6,
-    "image": "/pages/page_006.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "7": {
-    "pageNumber": 7,
-    "image": "/pages/page_007.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "8": {
-    "pageNumber": 8,
-    "image": "/pages/page_008.jpg",
+    "image": "/pages/topic_2.png",
     "overlays": [
       {
-        "id": "ov_p8_truonglop",
-        "text": "trường lớp",
-        "entryId": "truong_lop",
-        "left": 59.98,
-        "top": 13.11,
-        "width": 24.14,
-        "height": 3.73,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p8_banbe",
-        "text": "bạn bè",
-        "entryId": "ban_be",
-        "left": 66.09,
-        "top": 16.03,
-        "width": 12.13,
-        "height": 3.17,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "truong_lop",
-      "ban_be"
-    ]
-  },
-  "9": {
-    "pageNumber": 9,
-    "image": "/pages/page_009.jpg",
-    "overlays": [
-      {
-        "id": "ov_p9_butchi",
-        "text": "bút chì",
-        "entryId": "but_chi",
-        "left": 21.0,
-        "top": 16.5,
-        "width": 15.0,
-        "height": 11.0,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p9_bangcon",
-        "text": "bảng con",
-        "entryId": "bang_con",
-        "left": 7.5,
-        "top": 27.5,
-        "width": 27.0,
-        "height": 14.5,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p9_thuocke",
-        "text": "thước kẻ",
-        "entryId": "thuoc_ke",
-        "left": 69.5,
-        "top": 13.0,
-        "width": 22.0,
-        "height": 8.5,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p9_tay",
-        "text": "tẩy",
-        "entryId": "tay_gom",
-        "left": 38.5,
-        "top": 35.5,
-        "width": 14.0,
-        "height": 6.5,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p9_sach",
-        "text": "sách",
-        "entryId": "sach",
-        "left": 49.5,
-        "top": 21.0,
-        "width": 19.5,
-        "height": 20.5,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p9_vo",
-        "text": "vở",
-        "entryId": "vo_viet",
-        "left": 69.0,
-        "top": 21.0,
-        "width": 21.0,
-        "height": 20.5,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "but_chi",
-      "bang_con",
-      "thuoc_ke",
-      "tay_gom",
-      "sach",
-      "vo_viet"
-    ]
-  },
-  "10": {
-    "pageNumber": 10,
-    "image": "/pages/page_010.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "11": {
-    "pageNumber": 11,
-    "image": "/pages/page_011.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "12": {
-    "pageNumber": 12,
-    "image": "/pages/page_012.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "13": {
-    "pageNumber": 13,
-    "image": "/pages/page_013.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "14": {
-    "pageNumber": 14,
-    "image": "/pages/page_014.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "15": {
-    "pageNumber": 15,
-    "image": "/pages/page_015.jpg",
-    "overlays": [
-      {
-        "id": "ov_p15_cahat",
-        "text": "ca hát",
-        "entryId": "ca_hat",
-        "left": 54.39,
-        "top": 59.69,
-        "width": 9.91,
-        "height": 2.81,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ca_hat"
-    ]
-  },
-  "16": {
-    "pageNumber": 16,
-    "image": "/pages/page_016.jpg",
-    "overlays": [
-      {
-        "id": "ov_p16_chaohoi",
-        "text": "chào hỏi",
-        "entryId": "chao_hoi",
-        "left": 43.8,
-        "top": 55.7,
-        "width": 14.5,
-        "height": 3.0,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "chao_hoi"
-    ]
-  },
-  "17": {
-    "pageNumber": 17,
-    "image": "/pages/page_017.jpg",
-    "overlays": [
-      {
-        "id": "ov_p17_ba",
-        "text": "bà",
-        "entryId": "ba_noi",
-        "left": 38.69,
-        "top": 36.95,
-        "width": 3.51,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p17_be",
-        "text": "bé",
-        "entryId": "be",
-        "left": 49.58,
-        "top": 36.95,
-        "width": 3.51,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p17_bupbe",
-        "text": "búp bê",
-        "entryId": "bup_be",
-        "left": 54.25,
-        "top": 36.95,
-        "width": 9.74,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p17_soba",
-        "text": "ba",
-        "entryId": "so_ba",
-        "left": 24.5,
-        "top": 73.3,
-        "width": 5.5,
-        "height": 3.3,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p17_banoipic",
-        "text": "bà",
-        "entryId": "ba_noi",
-        "left": 49.0,
-        "top": 73.3,
-        "width": 5.5,
-        "height": 3.3,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p17_baba",
-        "text": "ba ba",
-        "entryId": "ba_ba",
-        "left": 71.2,
-        "top": 73.3,
-        "width": 10.0,
-        "height": 3.3,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ba_noi",
-      "be",
-      "bup_be",
-      "so_ba",
-      "ba_ba"
-    ]
-  },
-  "18": {
-    "pageNumber": 18,
-    "image": "/pages/page_018.jpg",
-    "overlays": [
-      {
-        "id": "ov_p18_giadinh",
-        "text": "gia đình",
-        "entryId": "gia_dinh",
-        "left": 43.6,
-        "top": 50.3,
-        "width": 13.6,
-        "height": 3.2,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "gia_dinh"
-    ]
-  },
-  "19": {
-    "pageNumber": 19,
-    "image": "/pages/page_019.jpg",
-    "overlays": [
-      {
-        "id": "ov_p19_bo",
-        "text": "bố",
-        "entryId": "bo",
-        "left": 48.15,
-        "top": 35.84,
-        "width": 3.66,
-        "height": 2.82,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p19_cauca",
-        "text": "câu cá",
-        "entryId": "cau_ca",
-        "left": 53.04,
-        "top": 35.84,
-        "width": 10.18,
-        "height": 2.82,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p19_canuoc",
-        "text": "ca",
-        "entryId": "ca_nuoc",
-        "left": 24.0,
-        "top": 73.0,
-        "width": 6.0,
-        "height": 3.2,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p19_catim",
-        "text": "cà",
-        "entryId": "ca_tim",
-        "left": 49.0,
-        "top": 73.0,
-        "width": 6.0,
-        "height": 3.2,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p19_ca",
-        "text": "cá",
-        "entryId": "ca",
-        "left": 74.0,
-        "top": 73.0,
-        "width": 6.0,
-        "height": 3.2,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "bo",
-      "cau_ca",
-      "ca_nuoc",
-      "ca_tim",
-      "ca"
-    ]
-  },
-  "20": {
-    "pageNumber": 20,
-    "image": "/pages/page_020.jpg",
-    "overlays": [
-      {
-        "id": "ov_p20_chaohoi",
-        "text": "chào hỏi",
-        "entryId": "chao_hoi",
-        "left": 45.0,
-        "top": 51.6,
-        "width": 14.5,
-        "height": 3.2,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "chao_hoi"
-    ]
-  },
-  "21": {
-    "pageNumber": 21,
-    "image": "/pages/page_021.jpg",
-    "overlays": [
-      {
-        "id": "ov_p21_be",
-        "text": "bé",
-        "entryId": "be",
-        "left": 33.83,
-        "top": 36.8,
-        "width": 3.54,
-        "height": 3.17,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p21_me",
-        "text": "mẹ",
-        "entryId": "me",
-        "left": 43.25,
-        "top": 36.8,
-        "width": 3.54,
-        "height": 3.17,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p21_banbe",
-        "text": "bạn bè",
-        "entryId": "ban_be",
-        "left": 60.54,
-        "top": 36.8,
-        "width": 9.83,
-        "height": 3.17,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p21_conbe",
-        "text": "bê",
-        "entryId": "con_be",
-        "left": 73.5,
-        "top": 73.2,
-        "width": 5.5,
-        "height": 3.0,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "be",
-      "me",
-      "ban_be",
-      "con_be"
-    ]
-  },
-  "22": {
-    "pageNumber": 22,
-    "image": "/pages/page_022.jpg",
-    "overlays": [
-      {
-        "id": "ov_p22_ba",
-        "text": "bà",
-        "entryId": "ba_noi",
-        "left": 42.92,
-        "top": 38.71,
-        "width": 3.47,
-        "height": 2.77,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p22_betay",
-        "text": "bế",
-        "entryId": "be_tay",
-        "left": 47.5,
-        "top": 38.6,
-        "width": 4.5,
-        "height": 3.0,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p22_be",
-        "text": "bé",
-        "entryId": "be",
-        "left": 52.2,
-        "top": 38.6,
-        "width": 4.8,
-        "height": 3.0,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ba_noi",
-      "be_tay",
-      "be"
-    ]
-  },
-  "23": {
-    "pageNumber": 23,
-    "image": "/pages/page_023.jpg",
-    "overlays": [
-      {
-        "id": "ov_p23_baba",
-        "text": "ba ba",
-        "entryId": "ba_ba",
-        "left": 13.52,
-        "top": 81.35,
-        "width": 9.21,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p23_beca",
-        "text": "bể cá",
-        "entryId": "be_ca",
-        "left": 62.69,
-        "top": 81.35,
-        "width": 8.93,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p23_betay",
-        "text": "bế",
-        "entryId": "be_tay",
-        "left": 47.86,
-        "top": 87.9,
-        "width": 3.46,
-        "height": 2.77,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ba_ba",
-      "be_ca",
-      "be_tay"
-    ]
-  },
-  "24": {
-    "pageNumber": 24,
-    "image": "/pages/page_024.jpg",
-    "overlays": [
-      {
-        "id": "ov_p24_bupbe",
-        "text": "búp bê",
-        "entryId": "bup_be",
-        "left": 37.79,
-        "top": 29.34,
-        "width": 10.97,
-        "height": 3.22,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p24_demen",
-        "text": "dế mèn",
-        "entryId": "de_men",
-        "left": 55.41,
-        "top": 29.34,
-        "width": 10.97,
-        "height": 3.22,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "bup_be",
-      "de_men"
-    ]
-  },
-  "25": {
-    "pageNumber": 25,
-    "image": "/pages/page_025.jpg",
-    "overlays": [
-      {
-        "id": "ov_p25_bo",
+        "id": "ov_t2_bo",
         "text": "bò",
         "entryId": "con_bo",
-        "left": 45.16,
-        "top": 34.48,
-        "width": 3.77,
-        "height": 3.07,
+        "left": 11.9,
+        "top": 72.4,
+        "width": 5.8,
+        "height": 5.0,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p25_gamco",
-        "text": "gặm cỏ",
-        "entryId": "gam_co",
-        "left": 50.22,
-        "top": 34.48,
-        "width": 10.52,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p25_conco",
+        "id": "ov_t2_co_egret",
         "text": "cò",
         "entryId": "con_co",
-        "left": 51.5,
-        "top": 73.0,
-        "width": 5.0,
-        "height": 3.0,
+        "left": 24.1,
+        "top": 72.4,
+        "width": 5.8,
+        "height": 5.0,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p25_co",
+        "id": "ov_t2_co_grass",
         "text": "cỏ",
         "entryId": "co",
-        "left": 74.5,
-        "top": 73.0,
-        "width": 5.5,
-        "height": 3.0,
+        "left": 35.7,
+        "top": 72.4,
+        "width": 5.8,
+        "height": 5.0,
         "isKeyVocab": true
+      },
+      {
+        "id": "ov_t2_be_co_co",
+        "text": "Bê có cỏ.",
+        "entryId": "be_co_co",
+        "left": 69.4,
+        "top": 42.3,
+        "width": 12.2,
+        "height": 5.2,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t2_thoai_1",
+        "text": "Tranh 1: Con chào mẹ ạ! (Hi, mom)",
+        "entryId": "b6_thoai_1",
+        "left": 56.1,
+        "top": 58.8,
+        "width": 18.9,
+        "height": 36.8
+      },
+      {
+        "id": "ov_t2_thoai_2",
+        "text": "Tranh 2: Cháu chào ông bà ạ! (Good afternoon)",
+        "entryId": "b6_thoai_2",
+        "left": 75.7,
+        "top": 58.8,
+        "width": 18.9,
+        "height": 36.8
       }
     ],
     "vocabWordIds": [
       "con_bo",
-      "gam_co",
       "con_co",
-      "co"
+      "co",
+      "be_co_co",
+      "b6_thoai_1",
+      "b6_thoai_2"
     ]
   },
-  "26": {
-    "pageNumber": 26,
-    "image": "/pages/page_026.jpg",
+  "3": {
+    "pageNumber": 3,
+    "image": "/pages/topic_3.png",
     "overlays": [
       {
-        "id": "ov_p26_be",
-        "text": "bé",
-        "entryId": "be",
-        "left": 44.24,
-        "top": 43.2,
-        "width": 3.38,
-        "height": 2.82,
+        "id": "ov_t3_title",
+        "text": "Đàn kiến con ngoan ngoãn",
+        "entryId": "dan_kien_title",
+        "left": 62.4,
+        "top": 22.3,
+        "width": 23.8,
+        "height": 4.8,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p26_conco",
-        "text": "cò",
-        "entryId": "con_co",
-        "left": 48.0,
-        "top": 39.5,
-        "width": 5.0,
-        "height": 3.0,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "be",
-      "con_co"
-    ]
-  },
-  "27": {
-    "pageNumber": 27,
-    "image": "/pages/page_027.jpg",
-    "overlays": [
+        "id": "ov_t3_tranh_1",
+        "text": "Tranh 1: Bà kiến sống ở đâu?",
+        "entryId": "kien_tranh_1",
+        "left": 54.4,
+        "top": 27.8,
+        "width": 19.7,
+        "height": 29.4
+      },
       {
-        "id": "ov_p27_bo",
-        "text": "bố",
-        "entryId": "bo",
-        "left": 30.7,
-        "top": 34.28,
-        "width": 3.35,
-        "height": 3.07,
+        "id": "ov_t3_tranh_2",
+        "text": "Tranh 2: Khiêng bà kiến bằng chiếc lá đa",
+        "entryId": "kien_tranh_2",
+        "left": 74.9,
+        "top": 27.8,
+        "width": 19.7,
+        "height": 29.4
+      },
+      {
+        "id": "ov_t3_tranh_3",
+        "text": "Tranh 3: Đưa bà kiến đến nơi thoáng mát",
+        "entryId": "kien_tranh_3",
+        "left": 54.4,
+        "top": 60.8,
+        "width": 19.7,
+        "height": 29.4
+      },
+      {
+        "id": "ov_t3_tranh_4",
+        "text": "Tranh 4: Được ở nhà mới, bà kiến cảm ơn",
+        "entryId": "kien_tranh_4",
+        "left": 74.9,
+        "top": 60.8,
+        "width": 19.7,
+        "height": 29.4
+      },
+      {
+        "id": "ov_t3_bo_co",
+        "text": "bó cỏ",
+        "entryId": "bo_co",
+        "left": 19.4,
+        "top": 44.8,
+        "width": 6.7,
+        "height": 4.0,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p27_dibo",
-        "text": "đi bộ",
-        "entryId": "di_bo",
-        "left": 43.97,
-        "top": 34.28,
-        "width": 7.77,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p27_hepho",
-        "text": "hè phố",
-        "entryId": "he_pho",
-        "left": 60.18,
-        "top": 34.28,
-        "width": 9.24,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p27_bobien",
-        "text": "bờ",
-        "entryId": "bo_bien",
-        "left": 24.5,
-        "top": 73.2,
-        "width": 5.5,
-        "height": 3.0,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p27_laco",
-        "text": "cờ",
-        "entryId": "la_co",
-        "left": 48.0,
-        "top": 73.2,
-        "width": 5.5,
-        "height": 3.0,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "bo",
-      "di_bo",
-      "he_pho",
-      "bo_bien",
-      "la_co"
-    ]
-  },
-  "28": {
-    "pageNumber": 28,
-    "image": "/pages/page_028.jpg",
-    "overlays": [
-      {
-        "id": "ov_p28_bo",
-        "text": "bố",
-        "entryId": "bo",
-        "left": 39.87,
-        "top": 41.69,
-        "width": 3.43,
-        "height": 2.92,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p28_betay",
-        "text": "bế",
-        "entryId": "be_tay",
-        "left": 44.42,
-        "top": 41.69,
-        "width": 3.43,
-        "height": 2.92,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "bo",
-      "be_tay"
-    ]
-  },
-  "29": {
-    "pageNumber": 29,
-    "image": "/pages/page_029.jpg",
-    "overlays": [
-      {
-        "id": "ov_p29_gocda",
-        "text": "gốc đa",
-        "entryId": "goc_da",
-        "left": 24.71,
-        "top": 33.62,
-        "width": 9.87,
-        "height": 3.78,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p29_conde",
-        "text": "dê",
-        "entryId": "con_de",
-        "left": 23.5,
-        "top": 72.5,
-        "width": 6.5,
-        "height": 3.2,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p29_condo",
-        "text": "đò",
-        "entryId": "con_do",
-        "left": 48.5,
-        "top": 72.5,
-        "width": 6.5,
-        "height": 3.2,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p29_odo",
-        "text": "ô đỏ",
-        "entryId": "o_do",
-        "left": 72.2,
-        "top": 72.89,
-        "width": 8.03,
-        "height": 3.37,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "goc_da",
-      "con_de",
-      "con_do",
-      "o_do"
-    ]
-  },
-  "30": {
-    "pageNumber": 30,
-    "image": "/pages/page_030.jpg",
-    "overlays": [
-      {
-        "id": "ov_p30_odo",
-        "text": "ô đỏ",
-        "entryId": "o_do",
-        "left": 51.37,
-        "top": 45.41,
-        "width": 6.31,
-        "height": 2.87,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "o_do"
-    ]
-  },
-  "31": {
-    "pageNumber": 31,
-    "image": "/pages/page_031.jpg",
-    "overlays": [
-      {
-        "id": "ov_p31_tau",
-        "text": "tàu",
-        "entryId": "tau",
-        "left": 35.08,
-        "top": 36.59,
-        "width": 5.2,
-        "height": 3.63,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p31_cang",
-        "text": "cảng",
-        "entryId": "cang",
-        "left": 57.49,
-        "top": 36.59,
-        "width": 6.8,
-        "height": 3.63,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p31_bode",
-        "text": "bờ đê",
-        "entryId": "bo_de",
-        "left": 22.55,
-        "top": 73.19,
-        "width": 9.7,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p31_caco",
+        "id": "ov_t3_ca_co",
         "text": "cá cờ",
         "entryId": "ca_co",
-        "left": 46.16,
-        "top": 73.39,
-        "width": 9.56,
-        "height": 2.92,
+        "left": 4.9,
+        "top": 51.3,
+        "width": 6.7,
+        "height": 4.0,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p31_dobe",
-        "text": "đỡ bé",
-        "entryId": "do_be",
-        "left": 71.23,
-        "top": 73.14,
-        "width": 9.56,
-        "height": 3.12,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "tau",
-      "cang",
-      "bo_de",
-      "ca_co",
-      "do_be"
-    ]
-  },
-  "32": {
-    "pageNumber": 32,
-    "image": "/pages/page_032.jpg",
-    "overlays": [
-      {
-        "id": "ov_p32_dobe",
-        "text": "đỡ bé",
-        "entryId": "do_be",
-        "left": 48.43,
-        "top": 39.52,
-        "width": 8.08,
-        "height": 2.92,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "do_be"
-    ]
-  },
-  "33": {
-    "pageNumber": 33,
-    "image": "/pages/page_033.jpg",
-    "overlays": [
-      {
-        "id": "ov_p33_bode",
+        "id": "ov_t3_bo_de",
         "text": "bờ đê",
         "entryId": "bo_de",
-        "left": 51.71,
-        "top": 55.4,
-        "width": 10.25,
-        "height": 3.88,
+        "left": 25.4,
+        "top": 55.3,
+        "width": 6.7,
+        "height": 4.0,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p33_caco",
-        "text": "cá cờ",
-        "entryId": "ca_co",
-        "left": 10.88,
-        "top": 51.82,
-        "width": 10.04,
-        "height": 3.67,
+        "id": "ov_t3_do_ba",
+        "text": "đỡ bà",
+        "entryId": "do_ba",
+        "left": 36.4,
+        "top": 51.3,
+        "width": 6.7,
+        "height": 4.0,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p33_dodo",
+        "id": "ov_t3_co_do",
+        "text": "cờ đỏ",
+        "entryId": "co_do",
+        "left": 12.4,
+        "top": 62.3,
+        "width": 6.7,
+        "height": 4.0,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t3_do_do",
         "text": "đỗ đỏ",
         "entryId": "do_do",
-        "left": 71.0,
-        "top": 73.0,
-        "width": 9.0,
-        "height": 3.2,
+        "left": 30.4,
+        "top": 67.8,
+        "width": 6.7,
+        "height": 4.0,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t3_do_be",
+        "text": "đỡ bé",
+        "entryId": "do_be",
+        "left": 14.4,
+        "top": 73.8,
+        "width": 6.7,
+        "height": 4.0,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t3_cau_1",
+        "text": "Bờ đê có dế.",
+        "entryId": "cau_bo_de_co_de",
+        "left": 7.9,
+        "top": 82.3,
+        "width": 13.2,
+        "height": 4.7,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t3_cau_2",
+        "text": "Bà có đỗ đỏ.",
+        "entryId": "cau_ba_co_do_do",
+        "left": 23.4,
+        "top": 82.3,
+        "width": 13.2,
+        "height": 4.7,
         "isKeyVocab": true
       }
     ],
     "vocabWordIds": [
-      "bo_de",
+      "dan_kien_title",
+      "kien_tranh_1",
+      "kien_tranh_2",
+      "kien_tranh_3",
+      "kien_tranh_4",
+      "bo_co",
       "ca_co",
-      "do_do"
+      "bo_de",
+      "do_ba",
+      "co_do",
+      "do_do",
+      "do_be",
+      "cau_bo_de_co_de",
+      "cau_ba_co_do_do"
     ]
   },
-  "34": {
-    "pageNumber": 34,
-    "image": "/pages/page_034.jpg",
+  "4": {
+    "pageNumber": 4,
+    "image": "/pages/topic_4.png",
     "overlays": [
       {
-        "id": "ov_p34_dankien",
-        "text": "đàn kiến",
-        "entryId": "dan_kien",
-        "left": 28.55,
-        "top": 23.44,
-        "width": 14.5,
-        "height": 3.37,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "dan_kien"
-    ]
-  },
-  "35": {
-    "pageNumber": 35,
-    "image": "/pages/page_035.jpg",
-    "overlays": [
-      {
-        "id": "ov_p35_kida",
-        "text": "kì đà",
-        "entryId": "ki_da",
-        "left": 43.45,
-        "top": 35.28,
-        "width": 20.46,
-        "height": 2.77,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p35_bido",
-        "text": "bí đỏ",
-        "entryId": "bi_do",
-        "left": 19.14,
-        "top": 71.32,
-        "width": 8.66,
-        "height": 3.32,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p35_keo",
-        "text": "kẻ ô",
-        "entryId": "ke_o",
-        "left": 36.85,
-        "top": 71.17,
-        "width": 7.61,
-        "height": 3.52,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p35_dido",
-        "text": "đi đò",
-        "entryId": "di_do",
-        "left": 56.09,
-        "top": 71.42,
-        "width": 8.45,
-        "height": 3.17,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ki_da",
-      "bi_do",
-      "ke_o",
-      "di_do"
-    ]
-  },
-  "36": {
-    "pageNumber": 36,
-    "image": "/pages/page_036.jpg",
-    "overlays": [
-      {
-        "id": "ov_p36_kida",
-        "text": "kì đà",
-        "entryId": "ki_da",
-        "left": 39.31,
-        "top": 36.64,
-        "width": 7.57,
-        "height": 2.72,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p36_keda",
-        "text": "kẽ đá",
-        "entryId": "ke_da",
-        "left": 55.09,
-        "top": 36.64,
-        "width": 7.57,
-        "height": 2.72,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ki_da",
-      "ke_da"
-    ]
-  },
-  "37": {
-    "pageNumber": 37,
-    "image": "/pages/page_037.jpg",
-    "overlays": [
-      {
-        "id": "ov_p37_lele",
-        "text": "le le",
-        "entryId": "le_le",
-        "left": 38.59,
-        "top": 35.39,
-        "width": 24.49,
-        "height": 3.12,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p37_boi",
-        "text": "bơi",
-        "entryId": "boi",
-        "left": 46.65,
-        "top": 35.49,
-        "width": 4.38,
-        "height": 2.92,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p37_honuoc",
-        "text": "hồ",
-        "entryId": "ho_nuoc",
-        "left": 58.6,
-        "top": 35.49,
-        "width": 3.05,
-        "height": 2.92,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p37_lado",
-        "text": "lá đỏ",
-        "entryId": "la_do",
-        "left": 16.85,
-        "top": 72.58,
-        "width": 8.79,
-        "height": 3.32,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p37_boho",
-        "text": "bờ hồ",
-        "entryId": "bo_ho",
-        "left": 35.88,
-        "top": 72.48,
-        "width": 9.84,
-        "height": 3.42,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p37_caho",
-        "text": "cá hổ",
-        "entryId": "ca_ho",
-        "left": 59.08,
-        "top": 72.53,
-        "width": 9.84,
-        "height": 3.42,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "le_le",
-      "boi",
-      "ho_nuoc",
-      "la_do",
-      "bo_ho",
-      "ca_ho"
-    ]
-  },
-  "38": {
-    "pageNumber": 38,
-    "image": "/pages/page_038.jpg",
-    "overlays": [
-      {
-        "id": "ov_p38_lahe",
-        "text": "lá hẹ",
-        "entryId": "la_he",
-        "left": 59.49,
-        "top": 40.48,
-        "width": 7.43,
-        "height": 3.12,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p38_ba",
-        "text": "bà",
-        "entryId": "ba_noi",
-        "left": 46.84,
-        "top": 40.48,
-        "width": 3.21,
-        "height": 3.12,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "la_he",
-      "ba_noi"
-    ]
-  },
-  "39": {
-    "pageNumber": 39,
-    "image": "/pages/page_039.jpg",
-    "overlays": [
-      {
-        "id": "ov_p39_dudu",
-        "text": "đu đủ",
-        "entryId": "du_du",
-        "left": 38.1,
-        "top": 36.34,
-        "width": 28.03,
-        "height": 3.27,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p39_ngotlu",
-        "text": "ngọt lừ",
-        "entryId": "ngot_lu",
-        "left": 54.08,
-        "top": 36.44,
-        "width": 10.51,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p39_hodu",
-        "text": "hổ dữ",
-        "entryId": "ho_du",
-        "left": 69.84,
-        "top": 71.63,
-        "width": 10.11,
-        "height": 3.57,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "du_du",
-      "ngot_lu",
-      "ho_du"
-    ]
-  },
-  "40": {
-    "pageNumber": 40,
-    "image": "/pages/page_040.jpg",
-    "overlays": [
-      {
-        "id": "ov_p40_caho",
-        "text": "cá hổ",
-        "entryId": "ca_ho",
-        "left": 39.52,
-        "top": 35.64,
-        "width": 7.62,
-        "height": 2.92,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p40_dution",
-        "text": "dữ",
-        "entryId": "du_ton",
-        "left": 56.86,
-        "top": 35.64,
-        "width": 3.29,
-        "height": 2.92,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ca_ho",
-      "du_ton"
-    ]
-  },
-  "41": {
-    "pageNumber": 41,
-    "image": "/pages/page_041.jpg",
-    "overlays": [
-      {
-        "id": "ov_p41_chukhi",
-        "text": "khỉ",
-        "entryId": "chu_khi",
-        "left": 35.53,
-        "top": 35.18,
-        "width": 32.54,
-        "height": 3.37,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p41_chuoi",
-        "text": "chuối",
-        "entryId": "chuoi",
-        "left": 58.45,
-        "top": 35.28,
-        "width": 8.01,
-        "height": 3.17,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p41_cho",
-        "text": "chợ",
-        "entryId": "cho_que",
-        "left": 69.77,
-        "top": 71.83,
-        "width": 11.16,
-        "height": 3.37,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p41_lakho",
-        "text": "lá khô",
-        "entryId": "la_kho",
-        "left": 23.45,
-        "top": 71.73,
-        "width": 10.18,
-        "height": 3.37,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "chu_khi",
-      "chuoi",
-      "cho_que",
-      "la_kho"
-    ]
-  },
-  "42": {
-    "pageNumber": 42,
-    "image": "/pages/page_042.jpg",
-    "overlays": [
-      {
-        "id": "ov_p42_cakho",
-        "text": "cá kho",
-        "entryId": "ca_kho",
-        "left": 46.39,
-        "top": 40.58,
-        "width": 9.08,
-        "height": 2.87,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p42_quakhe",
-        "text": "khế",
-        "entryId": "qua_khe",
-        "left": 56.51,
-        "top": 40.58,
-        "width": 4.74,
-        "height": 2.87,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ca_kho",
-      "qua_khe"
-    ]
-  },
-  "43": {
-    "pageNumber": 43,
-    "image": "/pages/page_043.jpg",
-    "overlays": [
-      {
-        "id": "ov_p43_chuhe",
-        "text": "chú hề",
-        "entryId": "chu_he",
-        "left": 5.67,
-        "top": 60.94,
-        "width": 10.95,
-        "height": 4.38,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p43_choca",
-        "text": "chợ",
-        "entryId": "cho_que",
-        "left": 47.41,
-        "top": 58.57,
-        "width": 10.74,
-        "height": 3.47,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p43_boho",
-        "text": "bờ hồ",
-        "entryId": "bo_ho",
-        "left": 37.13,
-        "top": 71.27,
-        "width": 8.93,
-        "height": 3.12,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p43_lahe",
-        "text": "lá hẹ",
-        "entryId": "la_he",
-        "left": 83.31,
-        "top": 73.59,
-        "width": 8.59,
-        "height": 3.88,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p43_lakho",
-        "text": "lá khô",
-        "entryId": "la_kho",
-        "left": 15.05,
-        "top": 78.33,
-        "width": 9.56,
-        "height": 3.37,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p43_caco",
-        "text": "cá cờ",
-        "entryId": "ca_co",
-        "left": 70.0,
-        "top": 72.0,
-        "width": 8.5,
-        "height": 3.2,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "chu_he",
-      "cho_que",
-      "bo_ho",
-      "la_he",
-      "la_kho",
-      "ca_co"
-    ]
-  },
-  "44": {
-    "pageNumber": 44,
-    "image": "/pages/page_044.jpg",
-    "overlays": [
-      {
-        "id": "ov_p44_conqua",
-        "text": "con quạ",
-        "entryId": "con_qua",
-        "left": 33.27,
-        "top": 25.71,
-        "width": 12.77,
-        "height": 3.32,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p44_thongminh",
-        "text": "thông minh",
-        "entryId": "thong_minh",
-        "left": 47.41,
-        "top": 25.71,
-        "width": 18.07,
-        "height": 3.32,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "con_qua",
-      "thong_minh"
-    ]
-  },
-  "45": {
-    "pageNumber": 45,
-    "image": "/pages/page_045.jpg",
-    "overlays": [
-      {
-        "id": "ov_p45_no",
-        "text": "nơ",
-        "entryId": "no",
-        "left": 55.95,
-        "top": 72.58,
-        "width": 9.91,
-        "height": 3.37,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p45_me",
-        "text": "mẹ",
-        "entryId": "me",
-        "left": 36.4,
-        "top": 36.49,
-        "width": 3.62,
-        "height": 2.87,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p45_came",
+        "id": "ov_t4_ca_me",
         "text": "cá mè",
         "entryId": "ca_me",
-        "left": 18.03,
-        "top": 72.84,
-        "width": 10.53,
-        "height": 3.07,
+        "left": 7.9,
+        "top": 72.6,
+        "width": 7.7,
+        "height": 4.4,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p45_lame",
+        "id": "ov_t4_la_me",
         "text": "lá me",
         "entryId": "la_me",
-        "left": 36.64,
-        "top": 72.58,
-        "width": 10.95,
-        "height": 3.52,
+        "left": 16.9,
+        "top": 72.6,
+        "width": 7.7,
+        "height": 4.4,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p45_cano",
+        "id": "ov_t4_no_do",
+        "text": "nơ đỏ",
+        "entryId": "no_do",
+        "left": 25.9,
+        "top": 72.6,
+        "width": 7.7,
+        "height": 4.4,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t4_ca_no",
         "text": "ca nô",
         "entryId": "ca_no",
-        "left": 75.26,
-        "top": 72.89,
-        "width": 9.56,
-        "height": 3.02,
+        "left": 35.9,
+        "top": 72.6,
+        "width": 7.7,
+        "height": 4.4,
         "isKeyVocab": true
+      },
+      {
+        "id": "ov_t4_bo_me",
+        "text": "Bố mẹ cho Hà đi ca nô.",
+        "entryId": "bo_me_cho_ha_di_ca_no",
+        "left": 64.4,
+        "top": 35.8,
+        "width": 19.7,
+        "height": 5.0,
+        "isKeyVocab": true
+      },
+      {
+        "id": "ov_t4_thoai_gioi_thieu",
+        "text": "Giới thiệu bản thân (Hello. My name is Nam...)",
+        "entryId": "b16_thoai_gioi_thieu",
+        "left": 53.4,
+        "top": 51.2,
+        "width": 41.8,
+        "height": 41.8
       }
     ],
     "vocabWordIds": [
-      "no",
-      "me",
       "ca_me",
       "la_me",
-      "ca_no"
-    ]
-  },
-  "46": {
-    "pageNumber": 46,
-    "image": "/pages/page_046.jpg",
-    "overlays": [
-      {
-        "id": "ov_p46_cano",
-        "text": "ca nô",
-        "entryId": "ca_no",
-        "left": 57.86,
-        "top": 36.85,
-        "width": 8.15,
-        "height": 2.97,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p46_bome",
-        "text": "bố",
-        "entryId": "bo",
-        "left": 33.06,
-        "top": 36.85,
-        "width": 3.5,
-        "height": 2.97,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p46_me",
-        "text": "mẹ",
-        "entryId": "me",
-        "left": 37.71,
-        "top": 36.85,
-        "width": 3.5,
-        "height": 2.97,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
+      "no_do",
       "ca_no",
-      "bo",
-      "me"
+      "bo_me_cho_ha_di_ca_no",
+      "b16_thoai_gioi_thieu"
     ]
   },
-  "47": {
-    "pageNumber": 47,
-    "image": "/pages/page_047.jpg",
+  "5": {
+    "pageNumber": 5,
+    "image": "/pages/topic_5.png",
     "overlays": [
       {
-        "id": "ov_p47_giotrung",
-        "text": "giỏ trứng",
-        "entryId": "gio_trung",
-        "left": 45.2,
-        "top": 34.58,
-        "width": 13.92,
-        "height": 3.42,
+        "id": "ov_t5_y_ta",
+        "text": "y tá",
+        "entryId": "y_ta",
+        "left": 11.4,
+        "top": 71.8,
+        "width": 6.7,
+        "height": 4.4,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p47_conga",
-        "text": "gà",
-        "entryId": "con_ga",
-        "left": 60.22,
-        "top": 34.58,
-        "width": 3.4,
-        "height": 3.42,
+        "id": "ov_t5_da_quy",
+        "text": "dã quỳ",
+        "entryId": "da_quy",
+        "left": 23.9,
+        "top": 71.8,
+        "width": 7.7,
+        "height": 4.4,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p47_gago",
-        "text": "gà gô",
-        "entryId": "ga_go",
-        "left": 18.52,
-        "top": 71.17,
-        "width": 10.04,
-        "height": 3.73,
+        "id": "ov_t5_da_quy_gem",
+        "text": "đá quý",
+        "entryId": "da_quy_gem",
+        "left": 35.7,
+        "top": 71.8,
+        "width": 7.7,
+        "height": 4.4,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p47_dogo",
-        "text": "đồ gỗ",
-        "entryId": "do_go",
-        "left": 37.55,
-        "top": 70.97,
-        "width": 9.84,
-        "height": 3.73,
+        "id": "ov_t5_cau_doc",
+        "text": "Mẹ và Hà ghé nhà dì Kha. Dì kể cho Hà nghe về bà. Hà chú ý nghe dì kể.",
+        "entryId": "cau_doc_p28",
+        "left": 56.4,
+        "top": 39.8,
+        "width": 40.7,
+        "height": 7.8,
         "isKeyVocab": true
       },
       {
-        "id": "ov_p47_giado",
-        "text": "giá đỗ",
-        "entryId": "gia_do",
-        "left": 56.64,
-        "top": 70.87,
-        "width": 10.95,
-        "height": 4.03,
-        "isKeyVocab": true
+        "id": "ov_t5_thoai_1",
+        "text": "Tranh 1: Cảm ơn bạn nhé! (Thank you)",
+        "entryId": "b28_thoai_1",
+        "left": 57.4,
+        "top": 58.8,
+        "width": 18.9,
+        "height": 36.8
       },
       {
-        "id": "ov_p47_cugia",
-        "text": "củ già",
-        "entryId": "cu_gia",
-        "left": 74.7,
-        "top": 71.22,
-        "width": 10.53,
-        "height": 3.57,
-        "isKeyVocab": true
+        "id": "ov_t5_thoai_2",
+        "text": "Tranh 2: Cháu cảm ơn ông bà rất nhiều ạ!",
+        "entryId": "b28_thoai_2",
+        "left": 76.9,
+        "top": 58.8,
+        "width": 18.9,
+        "height": 36.8
       }
     ],
     "vocabWordIds": [
-      "gio_trung",
-      "con_ga",
-      "ga_go",
-      "do_go",
-      "gia_do",
-      "cu_gia"
+      "y_ta",
+      "da_quy",
+      "da_quy_gem",
+      "cau_doc_p28",
+      "b28_thoai_1",
+      "b28_thoai_2"
     ]
-  },
-  "48": {
-    "pageNumber": 48,
-    "image": "/pages/page_048.jpg",
-    "overlays": [
-      {
-        "id": "ov_p48_chegio",
-        "text": "che gió",
-        "entryId": "che_gio",
-        "left": 34.47,
-        "top": 40.58,
-        "width": 11.13,
-        "height": 3.22,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p48_ba",
-        "text": "bà",
-        "entryId": "ba_noi",
-        "left": 29.87,
-        "top": 40.58,
-        "width": 3.47,
-        "height": 3.22,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p48_conga",
-        "text": "gà",
-        "entryId": "con_ga",
-        "left": 63.6,
-        "top": 40.58,
-        "width": 3.47,
-        "height": 3.22,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "che_gio",
-      "ba_noi",
-      "con_ga"
-    ]
-  },
-  "49": {
-    "pageNumber": 49,
-    "image": "/pages/page_049.jpg",
-    "overlays": [
-      {
-        "id": "ov_p49_ngoinha",
-        "text": "nhà",
-        "entryId": "ngoi_nha",
-        "left": 37.83,
-        "top": 35.64,
-        "width": 5.18,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p49_ngonho",
-        "text": "ngõ nhỏ",
-        "entryId": "ngo_nho",
-        "left": 64.9,
-        "top": 35.64,
-        "width": 11.55,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p49_gheda",
-        "text": "ghế đá",
-        "entryId": "ghe_da",
-        "left": 17.96,
-        "top": 69.91,
-        "width": 11.99,
-        "height": 3.98,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p49_ghego",
-        "text": "ghế gỗ",
-        "entryId": "ghe_go",
-        "left": 34.5,
-        "top": 72.5,
-        "width": 9.5,
-        "height": 3.2,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p49_nhago",
-        "text": "nhà gỗ",
-        "entryId": "nha_go",
-        "left": 56.3,
-        "top": 70.01,
-        "width": 11.99,
-        "height": 3.78,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p49_lanho",
-        "text": "lá nho",
-        "entryId": "la_nho",
-        "left": 75.53,
-        "top": 70.26,
-        "width": 10.32,
-        "height": 3.17,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ngoi_nha",
-      "ngo_nho",
-      "ghe_da",
-      "ghe_go",
-      "nha_go",
-      "la_nho"
-    ]
-  },
-  "50": {
-    "pageNumber": 50,
-    "image": "/pages/page_050.jpg",
-    "overlays": [
-      {
-        "id": "ov_p50_ghego",
-        "text": "ghế",
-        "entryId": "ghe",
-        "left": 52.81,
-        "top": 38.41,
-        "width": 5.34,
-        "height": 3.22,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ghe"
-    ]
-  },
-  "51": {
-    "pageNumber": 51,
-    "image": "/pages/page_051.jpg",
-    "overlays": [
-      {
-        "id": "ov_p51_connghe",
-        "text": "nghé",
-        "entryId": "con_nghe",
-        "left": 35.29,
-        "top": 33.52,
-        "width": 6.86,
-        "height": 3.27,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p51_ngo",
-        "text": "ngõ",
-        "entryId": "ngo_nho",
-        "left": 61.12,
-        "top": 33.52,
-        "width": 5.24,
-        "height": 3.27,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p51_ngaba",
-        "text": "ngã ba",
-        "entryId": "nga_ba",
-        "left": 18.73,
-        "top": 69.71,
-        "width": 11.99,
-        "height": 3.73,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p51_cunghe",
-        "text": "củ nghệ",
-        "entryId": "cu_nghe",
-        "left": 57.41,
-        "top": 69.61,
-        "width": 13.45,
-        "height": 3.88,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p51_nghihe",
-        "text": "nghỉ hè",
-        "entryId": "nghi_he",
-        "left": 75.12,
-        "top": 69.66,
-        "width": 12.61,
-        "height": 3.78,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "con_nghe",
-      "ngo_nho",
-      "nga_ba",
-      "cu_nghe",
-      "nghi_he"
-    ]
-  },
-  "52": {
-    "pageNumber": 52,
-    "image": "/pages/page_052.jpg",
-    "overlays": [
-      {
-        "id": "ov_p52_connghe",
-        "text": "nghé",
-        "entryId": "con_nghe",
-        "left": 24.8,
-        "top": 40.32,
-        "width": 6.69,
-        "height": 3.22,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p52_co",
-        "text": "cỏ",
-        "entryId": "co",
-        "left": 42.11,
-        "top": 40.32,
-        "width": 3.55,
-        "height": 3.22,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p52_bode",
-        "text": "bờ đê",
-        "entryId": "bo_de",
-        "left": 65.71,
-        "top": 40.32,
-        "width": 8.27,
-        "height": 3.22,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "con_nghe",
-      "co",
-      "bo_de"
-    ]
-  },
-  "53": {
-    "pageNumber": 53,
-    "image": "/pages/page_053.jpg",
-    "overlays": [
-      {
-        "id": "ov_p53_nhaga",
-        "text": "nhà ga",
-        "entryId": "nha_ga",
-        "left": 49.49,
-        "top": 51.01,
-        "width": 12.47,
-        "height": 3.93,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p53_nghihe",
-        "text": "nghỉ hè",
-        "entryId": "nghi_he",
-        "left": 70.53,
-        "top": 54.24,
-        "width": 13.86,
-        "height": 5.04,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p53_bapngo",
-        "text": "bắp ngô",
-        "entryId": "bap_ngo",
-        "left": 52.27,
-        "top": 64.42,
-        "width": 12.41,
-        "height": 3.83,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p53_giado",
-        "text": "giá đỗ",
-        "entryId": "gia_do",
-        "left": 79.28,
-        "top": 67.79,
-        "width": 11.29,
-        "height": 3.67,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p53_ghego",
-        "text": "ghế gỗ",
-        "entryId": "ghe_go",
-        "left": 56.37,
-        "top": 75.15,
-        "width": 15.32,
-        "height": 5.49,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p53_ngonho",
-        "text": "ngõ nhỏ",
-        "entryId": "ngo_nho",
-        "left": 32.13,
-        "top": 78.38,
-        "width": 13.79,
-        "height": 3.67,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "nha_ga",
-      "nghi_he",
-      "bap_ngo",
-      "gia_do",
-      "ghe_go",
-      "ngo_nho"
-    ]
-  },
-  "54": {
-    "pageNumber": 54,
-    "image": "/pages/page_054.jpg",
-    "overlays": [],
-    "vocabWordIds": []
-  },
-  "55": {
-    "pageNumber": 55,
-    "image": "/pages/page_055.jpg",
-    "overlays": [
-      {
-        "id": "ov_p55_chimse",
-        "text": "sẻ",
-        "entryId": "chim_se",
-        "left": 33.36,
-        "top": 38.01,
-        "width": 3.15,
-        "height": 3.17,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p55_riurit",
-        "text": "ríu rít",
-        "entryId": "riu_rit",
-        "left": 52.63,
-        "top": 38.01,
-        "width": 10.03,
-        "height": 3.17,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p55_rora",
-        "text": "rổ rá",
-        "entryId": "ro_ra",
-        "left": 18.31,
-        "top": 72.89,
-        "width": 8.66,
-        "height": 3.83,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p55_caro",
-        "text": "cá rô",
-        "entryId": "ca_ro",
-        "left": 39.35,
-        "top": 73.49,
-        "width": 8.79,
-        "height": 3.12,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p55_chuso",
-        "text": "chữ số",
-        "entryId": "chu_so",
-        "left": 75.46,
-        "top": 73.19,
-        "width": 11.09,
-        "height": 3.42,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p55_susu",
-        "text": "su su",
-        "entryId": "su_su",
-        "left": 58.66,
-        "top": 73.94,
-        "width": 8.93,
-        "height": 2.52,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "chim_se",
-      "riu_rit",
-      "ro_ra",
-      "ca_ro",
-      "chu_so",
-      "su_su"
-    ]
-  },
-  "56": {
-    "pageNumber": 56,
-    "image": "/pages/page_056.jpg",
-    "overlays": [
-      {
-        "id": "ov_p56_gari",
-        "text": "gà ri",
-        "entryId": "ga_ri",
-        "left": 33.15,
-        "top": 43.2,
-        "width": 6.96,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p56_caro",
-        "text": "cá rô",
-        "entryId": "ca_ro",
-        "left": 42.33,
-        "top": 43.2,
-        "width": 6.96,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p56_susu",
-        "text": "su su",
-        "entryId": "su_su",
-        "left": 51.51,
-        "top": 43.2,
-        "width": 6.96,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p56_rora",
-        "text": "rổ rá",
-        "entryId": "ro_ra",
-        "left": 73.81,
-        "top": 43.2,
-        "width": 6.96,
-        "height": 3.07,
-        "isKeyVocab": true
-      },
-      {
-        "id": "ov_p56_cho",
-        "text": "chợ",
-        "entryId": "cho_que",
-        "left": 23.97,
-        "top": 43.2,
-        "width": 4.33,
-        "height": 3.07,
-        "isKeyVocab": true
-      }
-    ],
-    "vocabWordIds": [
-      "ga_ri",
-      "ca_ro",
-      "su_su",
-      "ro_ra",
-      "cho_que"
-    ]
-  },
-  "57": {
-    "pageNumber": 57,
-    "image": "/pages/page_057.jpg",
-    "overlays": [],
-    "vocabWordIds": []
   }
 }

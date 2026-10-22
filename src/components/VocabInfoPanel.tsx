@@ -263,10 +263,10 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
             {pageVocabEntries.length === 0 && onNavigatePage && (
               <button
                 type="button"
-                onClick={() => onNavigatePage(15)}
+                onClick={() => onNavigatePage(1)}
                 className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-slate-900 font-extrabold text-xs rounded-xl shadow-xs hover:scale-105 active:scale-95 cursor-pointer transition-all"
               >
-                <span>Đến Bài 1 (Trang 15)</span>
+                <span>Đến Bài 1 (Bài 3: C c)</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
             )}
@@ -283,10 +283,10 @@ export const VocabInfoPanel: React.FC<VocabInfoPanelProps> = ({
             </div>
             <div>
               <h3 className="text-sm font-black text-slate-800 font-heading">
-                Gợi Ý Từ Vựng Trang {currentPage}
+                Gợi Ý Từ Vựng & Hội Thoại (Bài {currentPage})
               </h3>
               <p className="text-[10px] text-slate-400">
-                Nhấn vào từ để xem thông tin & vị trí trên sách
+                Nhấn vào từ hoặc tranh để xem thông tin & vị trí trên sách
               </p>
             </div>
           </div>

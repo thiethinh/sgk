@@ -13,10 +13,10 @@ const entriesData = entriesDataRaw as Record<string, VocabEntry>;
 const pageOverlays = pageOverlaysRaw as Record<string, PageOverlayData>;
 
 export function App() {
-  // Default to page 15 (Lesson 1: A a)
-  const [currentPage, setCurrentPage] = useState<number>(15);
-  const [selectedEntryId, setSelectedEntryId] = useState<string | null>('ca_hat');
-  const [selectedOverlayId, setSelectedOverlayId] = useState<string | null>('ov_p15_cahat');
+  // Default to Topic 1: Bài 3: C c
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [selectedEntryId, setSelectedEntryId] = useState<string | null>('ca_nuoc');
+  const [selectedOverlayId, setSelectedOverlayId] = useState<string | null>('ov_t1_ca_nuoc');
   const [isAllVocabOpen, setIsAllVocabOpen] = useState(false);
   const [isHelpOpen, setIsHelpOpen] = useState(false);
 
@@ -31,7 +31,7 @@ export function App() {
       // fallback
     }
     // Default sample saved words for a welcoming start
-    return ['ca_hat', 'bup_be', 'con_bo'];
+    return ['ca_nuoc', 'con_bo', 'dan_kien_title'];
   });
 
   useEffect(() => {
@@ -48,10 +48,10 @@ export function App() {
     );
   };
 
-  const totalPages = 57;
+  const totalPages = 5;
   const currentPageData: PageOverlayData = pageOverlays[currentPage.toString()] || {
     pageNumber: currentPage,
-    image: `/pages/page_${String(currentPage).padStart(3, '0')}.jpg`,
+    image: `/pages/topic_${currentPage}.png`,
     overlays: [],
     vocabWordIds: []
   };
@@ -129,8 +129,8 @@ export function App() {
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-amber-50/70 via-sky-50/50 to-pink-50/60 text-slate-800">
       {/* Top Header */}
       <Header
-        currentLessonIndex={Math.max(0, Math.floor((currentPage - 14) / 2))}
-        totalLessons={21}
+        currentLessonIndex={currentPage - 1}
+        totalLessons={5}
         savedCount={savedWordIds.length}
         onOpenAllVocab={() => setIsAllVocabOpen(true)}
         onOpenHelp={() => setIsHelpOpen(true)}

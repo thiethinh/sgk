@@ -52,7 +52,7 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
     const preloadPage = (p: number) => {
       if (p >= 1 && p <= totalPages) {
         const img = new Image();
-        img.src = `/pages/page_${String(p).padStart(3, '0')}.jpg`;
+        img.src = `/pages/topic_${p}.png`;
       }
     };
 
@@ -60,9 +60,6 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
     preloadPage(currentPage + 2);
     if (currentPage > 1) {
       preloadPage(currentPage - 1);
-    }
-    if (currentPage > 2) {
-      preloadPage(currentPage - 2);
     }
   }, [currentPage, totalPages]);
 
@@ -180,7 +177,36 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
   };
 
   return (
-    <div className="flex flex-col gap-2.5">
+    <div className="flex flex-col gap-2.5 relative">
+      {/* CUTE STICKY NOTE: COMPLETELY OUTSIDE THE SGK PANEL AT TOP-LEFT */}
+      <div className="hidden xl:flex flex-col w-[128px] bg-gradient-to-br from-amber-100 via-amber-50 to-amber-200/95 border-2 border-amber-300/90 rounded-2xl p-2 shadow-lg shadow-amber-300/40 -rotate-3 hover:rotate-0 transition-transform duration-200 absolute -left-[140px] top-2 z-30 select-none cursor-default">
+        {/* Cute Pin */}
+        <div className="text-center -mt-4 mb-0.5">
+          <span className="text-xl drop-shadow-sm filter">📌</span>
+        </div>
+        
+        <div className="text-center font-black text-amber-950 text-[10.5px] tracking-tight mb-1.5">
+          Hướng dẫn bé!
+        </div>
+
+        <div className="space-y-1.5 text-[9.5px] font-bold text-amber-900 leading-snug">
+          <div className="bg-white/90 p-1.5 rounded-xl border border-amber-200/70 shadow-2xs flex items-center gap-1.5">
+            <span className="text-xs shrink-0">👆</span>
+            <span>Chạm từ hoặc ảnh để nghe đọc</span>
+          </div>
+          
+          <div className="bg-white/90 p-1.5 rounded-xl border border-amber-200/70 shadow-2xs flex items-center gap-1.5">
+            <span className="text-xs shrink-0">💬</span>
+            <span>Chạm tranh nghe hội thoại</span>
+          </div>
+
+          <div className="bg-white/90 p-1.5 rounded-xl border border-amber-200/70 shadow-2xs flex items-center gap-1.5">
+            <span className="text-xs shrink-0">🖱️</span>
+            <span>Cuộn chuột đổi bài học</span>
+          </div>
+        </div>
+      </div>
+
       {/* Main PDF Container with viewerContainerRef to capture & lock wheel/swipe events */}
       <div
         ref={viewerContainerRef}
@@ -239,33 +265,15 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
           {/* Jump to Lesson Dropdown */}
           <div className="flex items-center gap-1.5">
             <select
+              value={currentPage}
               onChange={(e) => onSelectLessonPage(Number(e.target.value))}
-              className="text-[11px] font-bold text-slate-700 bg-white border border-amber-300 rounded-xl px-2 py-1 shadow-xs focus:outline-none cursor-pointer max-w-[130px] sm:max-w-none"
-              defaultValue=""
+              className="text-[11px] font-bold text-slate-700 bg-white border border-amber-300 rounded-xl px-2 py-1 shadow-xs focus:outline-none cursor-pointer max-w-[170px] sm:max-w-none"
             >
-              <option value="" disabled>Chọn bài học...</option>
-              <option value="9">Đồ dùng học tập (Trang 9)</option>
-              <option value="15">Bài 1: A a (Trang 15)</option>
-              <option value="17">Bài 2: B b (Trang 17)</option>
-              <option value="19">Bài 3: C c (Trang 19)</option>
-              <option value="21">Bài 4: E e, Ê ê (Trang 21)</option>
-              <option value="23">Bài 5: Ôn tập 1 (Trang 23)</option>
-              <option value="25">Bài 6: O o (Trang 25)</option>
-              <option value="27">Bài 7: Ô ô, Ơ ơ (Trang 27)</option>
-              <option value="29">Bài 8: D d, Đ đ (Trang 29)</option>
-              <option value="31">Bài 9: Dấu hỏi, nặng (Trang 31)</option>
-              <option value="33">Bài 10: Ôn tập 2 (Trang 33)</option>
-              <option value="35">Bài 11: I i, K k (Trang 35)</option>
-              <option value="37">Bài 12: H h, L l (Trang 37)</option>
-              <option value="39">Bài 13: U u, Ư ư (Trang 39)</option>
-              <option value="41">Bài 14: Ch, Kh (Trang 41)</option>
-              <option value="43">Bài 15: Ôn tập 3 (Trang 43)</option>
-              <option value="45">Bài 16: M m, N n (Trang 45)</option>
-              <option value="47">Bài 17: G g, Gi gi (Trang 47)</option>
-              <option value="49">Bài 18: Gh, Nh (Trang 49)</option>
-              <option value="51">Bài 19: Ng, Ngh (Trang 51)</option>
-              <option value="53">Bài 20: Ôn tập 4 (Trang 53)</option>
-              <option value="55">Bài 21: R r, S s (Trang 55)</option>
+              <option value="1">Bài 3: C c (Trang 18 - 19)</option>
+              <option value="2">Bài 6: O o (Trang 24 - 25)</option>
+              <option value="3">Bài 10: Ôn tập - Đàn kiến (Trang 32 - 33)</option>
+              <option value="4">Bài 16: M m, N n (Trang 44 - 45)</option>
+              <option value="5">Bài 28: Y y (Trang 68 - 69)</option>
             </select>
           </div>
         </div>
@@ -276,36 +284,12 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
           onTouchEnd={handleTouchEnd}
           className="bg-amber-50/40 p-2 sm:p-3 flex items-start justify-center min-h-[480px] relative rounded-b-[21px]"
         >
-          {/* CUTE STICKY NOTE OVERLAPPING THE LEFT BORDER - SCALED DOWN 15% */}
-          <div className="hidden sm:flex flex-col w-[128px] bg-gradient-to-br from-amber-100 via-amber-50 to-amber-200/95 border-2 border-amber-300/90 rounded-2xl p-2 shadow-lg shadow-amber-300/40 -rotate-3 hover:rotate-0 transition-transform duration-200 absolute -left-3 sm:-left-4.5 top-6 sm:top-8 z-30 select-none cursor-default">
-            {/* Cute Pin */}
-            <div className="text-center -mt-4 mb-0.5">
-              <span className="text-xl drop-shadow-sm filter">📌</span>
-            </div>
-            
-            <div className="text-center font-black text-amber-950 text-[10.5px] tracking-tight mb-1.5">
-              Hướng dẫn bé!
-            </div>
 
-            <div className="space-y-1.5 text-[9.5px] font-bold text-amber-900 leading-snug">
-              <div className="bg-white/90 p-1.5 rounded-xl border border-amber-200/70 shadow-2xs flex items-center gap-1.5">
-                <span className="text-xs shrink-0">👆</span>
-                <span>Chạm từ có viền để nghe đọc</span>
-              </div>
-              
-              <div className="bg-white/90 p-1.5 rounded-xl border border-amber-200/70 shadow-2xs flex items-center gap-1.5">
-                <span className="text-xs shrink-0">🖱️</span>
-                <span>Cuộn chuột để lật trang sách</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Main Book Frame - Fixed standard 55% size */}
+          {/* Main Book Frame */}
           <div
-            className="relative shadow-lg rounded-2xl overflow-hidden bg-[#FAF7F2] border border-amber-200/90 shrink-0"
+            className="relative shadow-lg rounded-2xl overflow-hidden bg-[#FAF7F2] border border-amber-200/90 shrink-0 w-full"
             style={{
-              width: '55%',
-              maxWidth: '520px',
+              maxWidth: '740px',
             }}
           >
             {/* BACKGROUND BUFFER LAYER (Previous page during turn - stays 100% visible so NO white flash ever happens) */}
@@ -342,6 +326,11 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
                   item.id === selectedOverlayId ||
                   (item.entryId && item.entryId === selectedEntryId);
 
+                const isDialogueOrStory =
+                  item.entryId?.includes('thoai') ||
+                  item.entryId?.includes('tranh') ||
+                  item.entryId?.includes('kien');
+
                 return (
                   <div
                     key={item.id}
@@ -364,10 +353,16 @@ export const PdfPageView: React.FC<PdfPageViewProps> = ({
                     }}
                     className={`absolute transition-all duration-150 cursor-pointer rounded-md touch-manipulation active:scale-95 ${
                       isSelected
-                        ? 'border-3 border-indigo-600 bg-indigo-500/35 ring-4 ring-indigo-300/60 shadow-lg scale-105 z-20'
+                        ? 'border-3 border-indigo-600 bg-indigo-500/35 ring-4 ring-indigo-300/60 shadow-lg scale-[1.02] z-20'
+                        : isDialogueOrStory
+                        ? 'border-2 border-emerald-500/80 bg-emerald-400/20 hover:bg-emerald-400/40 hover:border-emerald-600 hover:scale-[1.02] z-10 shadow-xs'
                         : 'border-2 border-amber-400/80 bg-amber-300/25 hover:bg-amber-400/50 hover:border-amber-600 hover:scale-105 z-10 shadow-xs'
                     }`}
-                    title={`Nhấn để tra từ "${item.text}"`}
+                    title={
+                      isDialogueOrStory
+                        ? `Nhấn để nghe hội thoại "${item.text}"`
+                        : `Nhấn để tra từ "${item.text}"`
+                    }
                   />
                 );
               })}
