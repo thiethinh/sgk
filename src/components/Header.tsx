@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
               <BookOpen className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
             </div>
             <h1 className="text-base sm:text-lg md:text-xl font-black text-slate-900 tracking-tight leading-snug">
-              VIỆT NGỮ MỞ LỐI – ANH NGỮ VƯƠN XA
+              TIẾNG VIỆT MỞ LỐI – ANH NGỮ VƯƠN XA
             </h1>
           </div>
 
